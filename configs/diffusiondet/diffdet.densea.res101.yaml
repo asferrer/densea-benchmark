@@ -1,0 +1,8 @@
+# DiffusionDet with ResNet-101: the common R-50 configuration with a different backbone. torchvision ImageNet
+# weights in detectron2 format (= detectron2://ImageNetPretrained/torchvision/R-101.pkl). Launched with
+# run/launch_dd.py --cfg ... --tag res101.
+_BASE_: "/app/densea-diffusiondet/configs/diffdet.densea.res50.yaml"
+MODEL:
+  WEIGHTS: "/app/densea-diffusiondet/models/torchvision-R-101.pkl"
+  RESNETS:
+    DEPTH: 101

@@ -1,0 +1,20 @@
+DenSea benchmark
+Copyright 2025-2026 Alejandro Sánchez Ferrer
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The repository contains the code that prepares the data, launches the training of three object detectors, evaluates
+them and deploys them. It does not redistribute images, annotations or model weights. Third-party components used
+at run time keep their own licenses:
+
+- DenSea-Aggregated (annotations, groups and partition: CC BY 4.0; Ocean Garbage images: public domain; Neural Ocean
+  images: CC BY 4.0; CleanSea images are not redistributed and must be obtained from their source under its terms).
+  See the dataset record for the exact terms.
+- RT-DETRv2 (Apache-2.0, Lv et al.) and RF-DETR (Apache-2.0, Roboflow), used through the sibling repositories
+  densea-rtdetrv2 and densea-rfdetr. DiffusionDet (CC BY-NC 4.0, Chen et al.), used through densea-diffusiondet,
+  keeps its non-commercial license; detectron2 is Apache-2.0.
+- ResNet-50 ImageNet weights (torchvision) and the DINOv2, DINOv3, CLIP and SigLIP2 feature extractors loaded by the gap analysis through
+  Hugging Face, each under the license of its model card.
+- NVIDIA TensorRT, JetPack and trtexec for the Jetson deployment, under the NVIDIA license terms.
+- NumPy, SciPy, scikit-learn, pycocotools, Pillow, OpenCV, PyTorch, ONNX and ONNX Runtime: their respective
+  open-source licenses.

@@ -1,0 +1,952 @@
+{
+ "split": "train",
+ "seed": 21,
+ "n": 100,
+ "nested": true,
+ "images": [
+  {
+   "id": 1126,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 4064,
+   "group": 1068,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 8005,
+   "group": 651,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 883,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Fishing_Net",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 678,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 2035,
+   "group": 634,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 14431,
+   "group": 1123,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 449,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Metal_Debris",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 6265,
+   "group": 1050,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Plastic_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 1187,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 1534,
+   "group": 429,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 12584,
+   "group": 538,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 83,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 9953,
+   "group": 634,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 3917,
+   "group": 1050,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Plastic_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 1157,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Metal_Debris",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 11418,
+   "group": 689,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1896,
+   "group": 429,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 5081,
+   "group": 1050,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Plastic_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 11676,
+   "group": 348,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 898,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Glove"
+   ]
+  },
+  {
+   "id": 2218,
+   "group": 429,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 10029,
+   "group": 634,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 48,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 11127,
+   "group": 709,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 5225,
+   "group": 918,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 327,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 7699,
+   "group": 634,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 3134,
+   "group": 923,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 12389,
+   "group": 640,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1188,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 3109,
+   "group": 918,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 292,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 9118,
+   "group": 1159,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 2181,
+   "group": 634,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 166,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 3150,
+   "group": 918,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 8710,
+   "group": 514,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1221,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 2238,
+   "group": 705,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 2512,
+   "group": 634,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Fishing_Net",
+    "Tire"
+   ]
+  },
+  {
+   "id": 14742,
+   "group": 1155,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 214,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 5152,
+   "group": 571,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 1202,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 10206,
+   "group": 1030,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 2437,
+   "group": 1068,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 104,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 578,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 1866,
+   "group": 571,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 9685,
+   "group": 702,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 136,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 5863,
+   "group": 1068,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 11955,
+   "group": 653,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 239,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 5453,
+   "group": 705,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 6394,
+   "group": 929,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1199,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Fishing_Net",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 5536,
+   "group": 571,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Metal_Debris",
+    "Tire"
+   ]
+  },
+  {
+   "id": 1045,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 11398,
+   "group": 1378,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1493,
+   "group": 923,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 294,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Fishing_Net",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 9499,
+   "group": 773,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 3461,
+   "group": 705,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 789,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 4630,
+   "group": 923,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 12059,
+   "group": 919,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 2731,
+   "group": 615,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 72,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Can",
+    "Glove",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 11839,
+   "group": 284,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 465,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 1978,
+   "group": 615,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 9611,
+   "group": 391,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 1044,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 14820,
+   "group": 1050,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Bottle",
+    "Tire"
+   ]
+  },
+  {
+   "id": 4075,
+   "group": 615,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 547,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 11743,
+   "group": 707,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 110,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 8464,
+   "group": 977,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 101,
+   "group": 0,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 10781,
+   "group": 1050,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Bottle",
+    "Tire"
+   ]
+  },
+  {
+   "id": 494,
+   "group": 141,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Metal_Debris"
+   ]
+  },
+  {
+   "id": 8045,
+   "group": 536,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net"
+   ]
+  },
+  {
+   "id": 3739,
+   "group": 707,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 661,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 6753,
+   "group": 1144,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 172,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 5520,
+   "group": 512,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Bottle",
+    "Tire"
+   ]
+  },
+  {
+   "id": 10910,
+   "group": 680,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net"
+   ]
+  },
+  {
+   "id": 1103,
+   "group": 128,
+   "source": "CleanSea",
+   "classes": [
+    "Metal_Debris",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 4642,
+   "group": 1324,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 931,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 14172,
+   "group": 512,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Bottle",
+    "Tire"
+   ]
+  },
+  {
+   "id": 4631,
+   "group": 1309,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  },
+  {
+   "id": 523,
+   "group": 1,
+   "source": "CleanSea",
+   "classes": [
+    "Bottle",
+    "Can",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 436,
+   "group": 128,
+   "source": "CleanSea",
+   "classes": [
+    "Metal_Debris",
+    "Plastic_Debris"
+   ]
+  },
+  {
+   "id": 12938,
+   "group": 875,
+   "source": "Ocean_garbage",
+   "classes": [
+    "Fishing_Net"
+   ]
+  },
+  {
+   "id": 1463,
+   "group": 785,
+   "source": "Neural_Ocean",
+   "classes": [
+    "Glove",
+    "Mask"
+   ]
+  }
+ ]
+}

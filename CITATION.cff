@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "DenSea benchmark: data regimes, gap metrics and detector paradigms for underwater debris detection"
+type: software
+authors:
+  - family-names: "Sánchez Ferrer"
+    given-names: "Alejandro"
+license: Apache-2.0
+repository-code: "https://github.com/asferrer/densea-benchmark"
+keywords:
+  - object detection
+  - synthetic data
+  - marine debris
+  - benchmark
+  - DenSea-Aggregated
+preferred-citation:
+  type: article
+  title: "When Does Synthetic Data Help Underwater Debris Detection? Gap Metrics, Data Regimes and Detector Paradigms"
+  authors:
+    - family-names: "Sánchez-Ferrer"
+      given-names: "Alejandro"
+    - family-names: "Gallego"
+      given-names: "Antonio Javier"
+    - family-names: "Calvo-Zaragoza"
+      given-names: "Jorge"
+  journal: "Neurocomputing"
+  status: in-preparation

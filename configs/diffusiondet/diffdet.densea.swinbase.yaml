@@ -1,0 +1,13 @@
+# DiffusionDet with Swin-Base: the common R-50 configuration with a different backbone. ImageNet-22k weights (the
+# official Swin-B configuration of DiffusionDet) loaded with detectron2 key matching (matching_heuristics):
+# SwinTransformer.init_weights does not load them. FREEZE_AT does not apply (frozen_stages = -1); the backbone uses
+# BACKBONE_MULTIPLIER 0.1 as R-50. Launched with run/launch_dd.py --cfg ... --tag swinbase.
+_BASE_: "/app/densea-diffusiondet/configs/diffdet.densea.res50.yaml"
+MODEL:
+  WEIGHTS: "/app/densea-diffusiondet/models/swin_base_patch4_window7_224_22k.pkl"
+  BACKBONE:
+    NAME: "build_swintransformer_fpn_backbone"
+  SWIN:
+    SIZE: "B-22k"
+  FPN:
+    IN_FEATURES: ["swin0", "swin1", "swin2", "swin3"]

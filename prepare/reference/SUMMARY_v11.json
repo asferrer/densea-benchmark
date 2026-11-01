@@ -1,0 +1,108 @@
+{
+ "synth_images": 12000,
+ "synth_annotations": 46452,
+ "synth_dropped_empty": 0,
+ "experiments": {
+  "exp06v11_synth100_real100": {
+   "images": 22245,
+   "annotations": 67575,
+   "synthetic_images": 12000,
+   "per_class": {
+    "Tire": 9976,
+    "Metal_Debris": 5025,
+    "Plastic_Debris": 10446,
+    "Fishing_Net": 7496,
+    "Bottle": 11208,
+    "Can": 6179,
+    "Mask": 8766,
+    "Glove": 8479
+   },
+   "selection": {}
+  },
+  "exp08v11_real_synth_minor": {
+   "images": 14983,
+   "annotations": 42584,
+   "synthetic_images": 4738,
+   "per_class": {
+    "Tire": 6109,
+    "Metal_Debris": 3882,
+    "Can": 4259,
+    "Plastic_Debris": 6531,
+    "Glove": 4869,
+    "Mask": 5290,
+    "Bottle": 7109,
+    "Fishing_Net": 4535
+   },
+   "selection": {
+    "Can": {
+     "real": 412,
+     "needed": 3088,
+     "added": 3089
+    },
+    "Metal_Debris": {
+     "real": 102,
+     "needed": 3398,
+     "added": 3399
+    }
+   }
+  },
+  "exp09v11_real_synth_invprop": {
+   "images": 21317,
+   "annotations": 64674,
+   "synthetic_images": 11072,
+   "per_class": {
+    "Tire": 9593,
+    "Metal_Debris": 4827,
+    "Plastic_Debris": 9921,
+    "Fishing_Net": 7284,
+    "Bottle": 10163,
+    "Can": 6123,
+    "Mask": 8487,
+    "Glove": 8276
+   },
+   "selection": {
+    "Metal_Debris": {
+     "real": 102,
+     "needed": 4398,
+     "added": 4398
+    },
+    "Can": {
+     "real": 412,
+     "needed": 4088,
+     "added": 3548
+    },
+    "Glove": {
+     "real": 2582,
+     "needed": 1918,
+     "added": 1446
+    },
+    "Fishing_Net": {
+     "real": 2812,
+     "needed": 1688,
+     "added": 890
+    },
+    "Mask": {
+     "real": 3164,
+     "needed": 1336,
+     "added": 762
+    },
+    "Tire": {
+     "real": 3761,
+     "needed": 739,
+     "added": 739
+    },
+    "Plastic_Debris": {
+     "real": 3957,
+     "needed": 543,
+     "added": 543
+    },
+    "Bottle": {
+     "real": 4333,
+     "needed": 167,
+     "added": 167
+    }
+   }
+  }
+ },
+ "lot": "v11"
+}

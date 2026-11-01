@@ -1,0 +1,10 @@
+# Partition, strategies, launchers and bootstrap analyses (CPU)
+numpy==1.26.4
+scipy==1.17.1
+scikit-learn==1.8.0
+pycocotools==2.0.11
+Pillow==12.2.0
+opencv-python-headless==4.11.0.86
+matplotlib==3.10.8
+PyYAML==6.0.3
+psutil==5.9.5

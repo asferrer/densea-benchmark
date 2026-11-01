@@ -1,0 +1,258 @@
+{
+ "tag": "rt_final_15W",
+ "set": "rtdetrv2_final",
+ "n_groups": 204,
+ "B": 2000,
+ "classes": [
+  "Bottle",
+  "Can",
+  "Fishing_Net",
+  "Glove",
+  "Mask",
+  "Metal_Debris",
+  "Plastic_Debris",
+  "Tire"
+ ],
+ "n_gt": [
+  946,
+  88,
+  614,
+  550,
+  673,
+  23,
+  851,
+  809
+ ],
+ "ap": {
+  "rt_torch": [
+   47.27,
+   22.46,
+   34.16,
+   75.72,
+   66.26,
+   8.66,
+   70.11,
+   25.69
+  ],
+  "trt_fp16": [
+   47.22,
+   21.36,
+   34.31,
+   75.97,
+   65.87,
+   8.69,
+   70.05,
+   25.52
+  ],
+  "trt_int8mix_stem": [
+   46.67,
+   21.26,
+   35.24,
+   75.79,
+   65.94,
+   8.83,
+   69.59,
+   25.51
+  ]
+ },
+ "pairs": {
+  "trt_fp16 - rt_torch": [
+   {
+    "class": "Bottle",
+    "diff": -0.05,
+    "ci": [
+     -0.32,
+     0.1
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": -1.1,
+    "ci": [
+     -2.34,
+     0.1
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": 0.15,
+    "ci": [
+     -0.11,
+     0.35
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": 0.25,
+    "ci": [
+     -0.42,
+     0.36
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": -0.39,
+    "ci": [
+     -0.5,
+     0.3
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": 0.03,
+    "ci": [
+     -0.0,
+     0.35
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": -0.06,
+    "ci": [
+     -0.24,
+     0.18
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": -0.17,
+    "ci": [
+     -0.46,
+     0.08
+    ]
+   }
+  ],
+  "trt_int8mix_stem - trt_fp16": [
+   {
+    "class": "Bottle",
+    "diff": -0.55,
+    "ci": [
+     -1.27,
+     0.43
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": -0.1,
+    "ci": [
+     -1.15,
+     0.98
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": 0.93,
+    "ci": [
+     -0.12,
+     1.91
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": -0.18,
+    "ci": [
+     -1.35,
+     0.4
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": 0.08,
+    "ci": [
+     -0.73,
+     0.3
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": 0.14,
+    "ci": [
+     -2.29,
+     3.7
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": -0.46,
+    "ci": [
+     -1.04,
+     -0.04
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": -0.0,
+    "ci": [
+     -0.54,
+     0.99
+    ]
+   }
+  ],
+  "trt_int8mix_stem - rt_torch": [
+   {
+    "class": "Bottle",
+    "diff": -0.6,
+    "ci": [
+     -1.41,
+     0.34
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": -1.2,
+    "ci": [
+     -2.39,
+     0.15
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": 1.08,
+    "ci": [
+     -0.02,
+     2.08
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": 0.07,
+    "ci": [
+     -1.49,
+     0.39
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": -0.31,
+    "ci": [
+     -0.79,
+     0.27
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": 0.17,
+    "ci": [
+     -2.28,
+     4.16
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": -0.52,
+    "ci": [
+     -1.08,
+     -0.04
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": -0.17,
+    "ci": [
+     -0.68,
+     0.76
+    ]
+   }
+  ]
+ }
+}

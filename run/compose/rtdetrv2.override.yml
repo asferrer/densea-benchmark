@@ -1,0 +1,9 @@
+# Compose override: mounts this repository as /kit in the rtdetrv2 container.
+# The compose file of the detector repository already mounts DATA_ROOT as /data (read-only) and RUNS_DIR as /runs.
+# Apply it on top of that file, which stays unchanged:
+#   docker compose -f <repo>/docker-compose.yml -f run/compose/rtdetrv2.override.yml up -d
+# KIT_DIR is the absolute path of this repository (see run/env.example).
+services:
+  rtdetrv2:
+    volumes:
+      - ${KIT_DIR:?set KIT_DIR}:/kit:ro

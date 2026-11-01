@@ -1,0 +1,381 @@
+{
+ "tag": "rf_15W",
+ "n_groups": 204,
+ "B": 2000,
+ "runs": {
+  "rf_torch": {
+   "AP": 43.54,
+   "AP50": 63.68,
+   "AP75": 46.93,
+   "APs": 5.87,
+   "APm": 31.14,
+   "APl": 51.1,
+   "AP_Bottle": 54.07,
+   "AP50_Bottle": 84.34,
+   "AP75_Bottle": 60.87,
+   "AP_Can": 17.37,
+   "AP50_Can": 36.06,
+   "AP75_Can": 13.45,
+   "AP_Fishing_Net": 33.24,
+   "AP50_Fishing_Net": 54.35,
+   "AP75_Fishing_Net": 35.15,
+   "AP_Glove": 71.87,
+   "AP50_Glove": 90.01,
+   "AP75_Glove": 82.33,
+   "AP_Mask": 60.94,
+   "AP50_Mask": 89.21,
+   "AP75_Mask": 67.76,
+   "AP_Metal_Debris": 8.36,
+   "AP50_Metal_Debris": 9.31,
+   "AP75_Metal_Debris": 9.14,
+   "AP_Plastic_Debris": 72.97,
+   "AP50_Plastic_Debris": 87.77,
+   "AP75_Plastic_Debris": 80.3,
+   "AP_Tire": 29.52,
+   "AP50_Tire": 58.42,
+   "AP75_Tire": 26.44
+  },
+  "rf_trt_fp32": {
+   "AP": 43.52,
+   "AP50": 63.77,
+   "AP75": 46.98,
+   "APs": 5.89,
+   "APm": 31.15,
+   "APl": 51.05,
+   "AP_Bottle": 54.07,
+   "AP50_Bottle": 84.4,
+   "AP75_Bottle": 61.08,
+   "AP_Can": 17.32,
+   "AP50_Can": 36.19,
+   "AP75_Can": 13.46,
+   "AP_Fishing_Net": 33.1,
+   "AP50_Fishing_Net": 54.71,
+   "AP75_Fishing_Net": 35.24,
+   "AP_Glove": 71.89,
+   "AP50_Glove": 90.03,
+   "AP75_Glove": 82.49,
+   "AP_Mask": 60.91,
+   "AP50_Mask": 89.17,
+   "AP75_Mask": 67.72,
+   "AP_Metal_Debris": 8.37,
+   "AP50_Metal_Debris": 9.32,
+   "AP75_Metal_Debris": 9.14,
+   "AP_Plastic_Debris": 72.95,
+   "AP50_Plastic_Debris": 87.74,
+   "AP75_Plastic_Debris": 80.24,
+   "AP_Tire": 29.59,
+   "AP50_Tire": 58.59,
+   "AP75_Tire": 26.49
+  },
+  "rf_trt_fp16": {
+   "AP": 43.54,
+   "AP50": 63.73,
+   "AP75": 46.87,
+   "APs": 6.04,
+   "APm": 31.1,
+   "APl": 51.07,
+   "AP_Bottle": 53.97,
+   "AP50_Bottle": 84.33,
+   "AP75_Bottle": 60.44,
+   "AP_Can": 17.43,
+   "AP50_Can": 36.13,
+   "AP75_Can": 13.43,
+   "AP_Fishing_Net": 33.29,
+   "AP50_Fishing_Net": 54.55,
+   "AP75_Fishing_Net": 35.4,
+   "AP_Glove": 71.82,
+   "AP50_Glove": 89.95,
+   "AP75_Glove": 82.22,
+   "AP_Mask": 60.94,
+   "AP50_Mask": 89.28,
+   "AP75_Mask": 67.94,
+   "AP_Metal_Debris": 8.37,
+   "AP50_Metal_Debris": 9.29,
+   "AP75_Metal_Debris": 9.15,
+   "AP_Plastic_Debris": 72.98,
+   "AP50_Plastic_Debris": 87.81,
+   "AP75_Plastic_Debris": 80.09,
+   "AP_Tire": 29.55,
+   "AP50_Tire": 58.45,
+   "AP75_Tire": 26.26
+  },
+  "rf_trt_qF": {
+   "AP": 43.51,
+   "AP50": 63.68,
+   "AP75": 46.89,
+   "APs": 5.68,
+   "APm": 31.05,
+   "APl": 51.07,
+   "AP_Bottle": 53.98,
+   "AP50_Bottle": 84.43,
+   "AP75_Bottle": 60.24,
+   "AP_Can": 17.26,
+   "AP50_Can": 36.05,
+   "AP75_Can": 13.34,
+   "AP_Fishing_Net": 32.9,
+   "AP50_Fishing_Net": 54.14,
+   "AP75_Fishing_Net": 35.92,
+   "AP_Glove": 71.95,
+   "AP50_Glove": 90.09,
+   "AP75_Glove": 82.58,
+   "AP_Mask": 61.14,
+   "AP50_Mask": 89.15,
+   "AP75_Mask": 67.77,
+   "AP_Metal_Debris": 8.38,
+   "AP50_Metal_Debris": 9.34,
+   "AP75_Metal_Debris": 9.14,
+   "AP_Plastic_Debris": 73.02,
+   "AP50_Plastic_Debris": 87.99,
+   "AP75_Plastic_Debris": 80.18,
+   "AP_Tire": 29.43,
+   "AP50_Tire": 58.25,
+   "AP75_Tire": 25.98
+  },
+  "rf_trt_qG": {
+   "AP": 43.31,
+   "AP50": 63.45,
+   "AP75": 46.56,
+   "APs": 5.26,
+   "APm": 30.99,
+   "APl": 50.74,
+   "AP_Bottle": 53.83,
+   "AP50_Bottle": 84.39,
+   "AP75_Bottle": 59.84,
+   "AP_Can": 17.09,
+   "AP50_Can": 35.63,
+   "AP75_Can": 13.35,
+   "AP_Fishing_Net": 32.73,
+   "AP50_Fishing_Net": 54.02,
+   "AP75_Fishing_Net": 34.55,
+   "AP_Glove": 72.09,
+   "AP50_Glove": 90.09,
+   "AP75_Glove": 82.3,
+   "AP_Mask": 61.34,
+   "AP50_Mask": 89.1,
+   "AP75_Mask": 68.92,
+   "AP_Metal_Debris": 7.01,
+   "AP50_Metal_Debris": 7.96,
+   "AP75_Metal_Debris": 7.77,
+   "AP_Plastic_Debris": 73.07,
+   "AP50_Plastic_Debris": 87.9,
+   "AP75_Plastic_Debris": 80.78,
+   "AP_Tire": 29.28,
+   "AP50_Tire": 58.52,
+   "AP75_Tire": 24.99
+  },
+  "rf_trt_qH": {
+   "AP": 42.89,
+   "AP50": 63.09,
+   "AP75": 46.5,
+   "APs": 3.87,
+   "APm": 30.8,
+   "APl": 50.16,
+   "AP_Bottle": 54.16,
+   "AP50_Bottle": 84.63,
+   "AP75_Bottle": 60.3,
+   "AP_Can": 15.34,
+   "AP50_Can": 34.12,
+   "AP75_Can": 11.46,
+   "AP_Fishing_Net": 32.56,
+   "AP50_Fishing_Net": 53.76,
+   "AP75_Fishing_Net": 34.45,
+   "AP_Glove": 71.99,
+   "AP50_Glove": 90.02,
+   "AP75_Glove": 82.89,
+   "AP_Mask": 60.46,
+   "AP50_Mask": 88.23,
+   "AP75_Mask": 68.94,
+   "AP_Metal_Debris": 7.49,
+   "AP50_Metal_Debris": 9.3,
+   "AP75_Metal_Debris": 9.18,
+   "AP_Plastic_Debris": 72.82,
+   "AP50_Plastic_Debris": 87.43,
+   "AP75_Plastic_Debris": 80.2,
+   "AP_Tire": 28.31,
+   "AP50_Tire": 57.23,
+   "AP75_Tire": 24.6
+  }
+ },
+ "pairs": [
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP",
+   "diff": 0.0,
+   "ci": [
+    -0.06,
+    0.1
+   ],
+   "p": 0.736
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP50",
+   "diff": 0.04,
+   "ci": [
+    -0.03,
+    0.19
+   ],
+   "p": 0.148
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP75",
+   "diff": -0.06,
+   "ci": [
+    -0.21,
+    0.14
+   ],
+   "p": 0.825
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP",
+   "diff": -0.02,
+   "ci": [
+    -0.09,
+    0.06
+   ],
+   "p": 0.679
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP50",
+   "diff": 0.09,
+   "ci": [
+    0.01,
+    0.16
+   ],
+   "p": 0.032
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32 (PC)",
+   "metric": "AP75",
+   "diff": 0.05,
+   "ci": [
+    -0.09,
+    0.15
+   ],
+   "p": 0.582
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 TensorRT FP32",
+   "metric": "AP",
+   "diff": 0.02,
+   "ci": [
+    -0.06,
+    0.13
+   ],
+   "p": 0.548
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 TensorRT FP32",
+   "metric": "AP50",
+   "diff": -0.04,
+   "ci": [
+    -0.11,
+    0.09
+   ],
+   "p": 0.912
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 TensorRT FP32",
+   "metric": "AP75",
+   "diff": -0.12,
+   "ci": [
+    -0.24,
+    0.11
+   ],
+   "p": 0.551
+  },
+  {
+   "pair": "TensorRT INT8 F (atenci\u00f3n) \u2212 TensorRT FP16",
+   "metric": "AP",
+   "diff": -0.04,
+   "ci": [
+    -0.2,
+    0.11
+   ],
+   "p": 0.706
+  },
+  {
+   "pair": "TensorRT INT8 F (atenci\u00f3n) \u2212 TensorRT FP16",
+   "metric": "AP50",
+   "diff": -0.04,
+   "ci": [
+    -0.38,
+    0.18
+   ],
+   "p": 0.551
+  },
+  {
+   "pair": "TensorRT INT8 F (atenci\u00f3n) \u2212 TensorRT FP16",
+   "metric": "AP75",
+   "diff": 0.03,
+   "ci": [
+    -0.29,
+    0.34
+   ],
+   "p": 0.939
+  },
+  {
+   "pair": "TensorRT INT8 G (atenci\u00f3n + fc1) \u2212 TensorRT FP16",
+   "metric": "AP",
+   "diff": -0.24,
+   "ci": [
+    -1.36,
+    0.12
+   ],
+   "p": 0.267
+  },
+  {
+   "pair": "TensorRT INT8 G (atenci\u00f3n + fc1) \u2212 TensorRT FP16",
+   "metric": "AP50",
+   "diff": -0.27,
+   "ci": [
+    -1.49,
+    0.18
+   ],
+   "p": 0.26
+  },
+  {
+   "pair": "TensorRT INT8 G (atenci\u00f3n + fc1) \u2212 TensorRT FP16",
+   "metric": "AP75",
+   "diff": -0.31,
+   "ci": [
+    -1.69,
+    0.17
+   ],
+   "p": 0.213
+  },
+  {
+   "pair": "TensorRT INT8 H (atenci\u00f3n + MLP) \u2212 TensorRT FP16",
+   "metric": "AP",
+   "diff": -0.65,
+   "ci": [
+    -1.35,
+    -0.18
+   ],
+   "p": 0.011
+  },
+  {
+   "pair": "TensorRT INT8 H (atenci\u00f3n + MLP) \u2212 TensorRT FP16",
+   "metric": "AP50",
+   "diff": -0.63,
+   "ci": [
+    -1.36,
+    0.48
+   ],
+   "p": 0.214
+  },
+  {
+   "pair": "TensorRT INT8 H (atenci\u00f3n + MLP) \u2212 TensorRT FP16",
+   "metric": "AP75",
+   "diff": -0.37,
+   "ci": [
+    -1.68,
+    0.29
+   ],
+   "p": 0.235
+  }
+ ]
+}

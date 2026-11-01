@@ -1,0 +1,538 @@
+{
+ "det": "diffusiondet",
+ "n_img": 2185,
+ "n_groups": 204,
+ "B": 2000,
+ "runs": {
+  "exp07_real100": {
+   "AP": 33.51,
+   "AP50": 54.87,
+   "AP75": 35.46,
+   "APs": 1.48,
+   "APm": 23.8,
+   "APl": 40.23,
+   "AP_Bottle": 29.16,
+   "AP50_Bottle": 58.05,
+   "AP75_Bottle": 27.67,
+   "AP_Can": 10.16,
+   "AP50_Can": 19.34,
+   "AP75_Can": 9.3,
+   "AP_Fishing_Net": 24.73,
+   "AP50_Fishing_Net": 47.88,
+   "AP75_Fishing_Net": 21.11,
+   "AP_Glove": 66.09,
+   "AP50_Glove": 91.42,
+   "AP75_Glove": 79.03,
+   "AP_Mask": 56.29,
+   "AP50_Mask": 86.76,
+   "AP75_Mask": 64.38,
+   "AP_Metal_Debris": 3.17,
+   "AP50_Metal_Debris": 5.12,
+   "AP75_Metal_Debris": 3.98,
+   "AP_Plastic_Debris": 59.63,
+   "AP50_Plastic_Debris": 83.7,
+   "AP75_Plastic_Debris": 67.39,
+   "AP_Tire": 18.84,
+   "AP50_Tire": 46.7,
+   "AP75_Tire": 10.8
+  },
+  "exp07_real100_s2": {
+   "AP": 33.04,
+   "AP50": 56.15,
+   "AP75": 34.23,
+   "APs": 1.28,
+   "APm": 22.88,
+   "APl": 38.98,
+   "AP_Bottle": 29.47,
+   "AP50_Bottle": 64.47,
+   "AP75_Bottle": 25.85,
+   "AP_Can": 9.07,
+   "AP50_Can": 20.13,
+   "AP75_Can": 5.75,
+   "AP_Fishing_Net": 25.61,
+   "AP50_Fishing_Net": 50.53,
+   "AP75_Fishing_Net": 23.27,
+   "AP_Glove": 64.56,
+   "AP50_Glove": 90.07,
+   "AP75_Glove": 77.64,
+   "AP_Mask": 54.29,
+   "AP50_Mask": 87.58,
+   "AP75_Mask": 59.11,
+   "AP_Metal_Debris": 1.38,
+   "AP50_Metal_Debris": 2.44,
+   "AP75_Metal_Debris": 1.0,
+   "AP_Plastic_Debris": 59.32,
+   "AP50_Plastic_Debris": 85.81,
+   "AP75_Plastic_Debris": 66.87,
+   "AP_Tire": 20.66,
+   "AP50_Tire": 48.16,
+   "AP75_Tire": 14.31
+  },
+  "exp07_real100_s3": {
+   "AP": 33.34,
+   "AP50": 55.67,
+   "AP75": 35.24,
+   "APs": 2.89,
+   "APm": 22.82,
+   "APl": 39.76,
+   "AP_Bottle": 30.88,
+   "AP50_Bottle": 63.49,
+   "AP75_Bottle": 27.78,
+   "AP_Can": 12.33,
+   "AP50_Can": 23.62,
+   "AP75_Can": 10.32,
+   "AP_Fishing_Net": 23.01,
+   "AP50_Fishing_Net": 44.21,
+   "AP75_Fishing_Net": 19.31,
+   "AP_Glove": 63.64,
+   "AP50_Glove": 90.11,
+   "AP75_Glove": 78.28,
+   "AP_Mask": 55.09,
+   "AP50_Mask": 87.46,
+   "AP75_Mask": 61.85,
+   "AP_Metal_Debris": 5.36,
+   "AP50_Metal_Debris": 7.73,
+   "AP75_Metal_Debris": 7.08,
+   "AP_Plastic_Debris": 57.08,
+   "AP50_Plastic_Debris": 84.07,
+   "AP75_Plastic_Debris": 64.77,
+   "AP_Tire": 19.36,
+   "AP50_Tire": 44.7,
+   "AP75_Tire": 12.54
+  },
+  "exp08_real_synth_minor": {
+   "AP": 35.55,
+   "AP50": 59.24,
+   "AP75": 37.59,
+   "APs": 1.4,
+   "APm": 24.75,
+   "APl": 42.61,
+   "AP_Bottle": 33.91,
+   "AP50_Bottle": 68.89,
+   "AP75_Bottle": 29.21,
+   "AP_Can": 14.01,
+   "AP50_Can": 25.59,
+   "AP75_Can": 14.94,
+   "AP_Fishing_Net": 28.83,
+   "AP50_Fishing_Net": 54.12,
+   "AP75_Fishing_Net": 29.84,
+   "AP_Glove": 65.3,
+   "AP50_Glove": 90.79,
+   "AP75_Glove": 77.51,
+   "AP_Mask": 54.47,
+   "AP50_Mask": 87.24,
+   "AP75_Mask": 59.94,
+   "AP_Metal_Debris": 8.12,
+   "AP50_Metal_Debris": 14.28,
+   "AP75_Metal_Debris": 11.08,
+   "AP_Plastic_Debris": 58.8,
+   "AP50_Plastic_Debris": 84.14,
+   "AP75_Plastic_Debris": 65.56,
+   "AP_Tire": 20.94,
+   "AP50_Tire": 48.85,
+   "AP75_Tire": 12.63
+  },
+  "exp08_real_synth_minor_s2": {
+   "AP": 34.98,
+   "AP50": 57.89,
+   "AP75": 37.55,
+   "APs": 1.23,
+   "APm": 23.93,
+   "APl": 42.04,
+   "AP_Bottle": 33.3,
+   "AP50_Bottle": 65.15,
+   "AP75_Bottle": 29.46,
+   "AP_Can": 12.87,
+   "AP50_Can": 23.53,
+   "AP75_Can": 14.01,
+   "AP_Fishing_Net": 27.22,
+   "AP50_Fishing_Net": 53.36,
+   "AP75_Fishing_Net": 28.2,
+   "AP_Glove": 64.11,
+   "AP50_Glove": 90.84,
+   "AP75_Glove": 76.89,
+   "AP_Mask": 55.92,
+   "AP50_Mask": 87.68,
+   "AP75_Mask": 61.8,
+   "AP_Metal_Debris": 6.35,
+   "AP50_Metal_Debris": 10.58,
+   "AP75_Metal_Debris": 9.28,
+   "AP_Plastic_Debris": 57.98,
+   "AP50_Plastic_Debris": 82.98,
+   "AP75_Plastic_Debris": 65.67,
+   "AP_Tire": 22.06,
+   "AP50_Tire": 49.02,
+   "AP75_Tire": 15.12
+  },
+  "exp08_real_synth_minor_s3": {
+   "AP": 34.93,
+   "AP50": 57.6,
+   "AP75": 37.6,
+   "APs": 1.52,
+   "APm": 23.8,
+   "APl": 41.82,
+   "AP_Bottle": 32.68,
+   "AP50_Bottle": 62.97,
+   "AP75_Bottle": 32.44,
+   "AP_Can": 13.74,
+   "AP50_Can": 24.08,
+   "AP75_Can": 14.71,
+   "AP_Fishing_Net": 26.76,
+   "AP50_Fishing_Net": 55.33,
+   "AP75_Fishing_Net": 24.23,
+   "AP_Glove": 64.51,
+   "AP50_Glove": 89.34,
+   "AP75_Glove": 77.0,
+   "AP_Mask": 56.02,
+   "AP50_Mask": 87.26,
+   "AP75_Mask": 63.91,
+   "AP_Metal_Debris": 5.29,
+   "AP50_Metal_Debris": 8.41,
+   "AP75_Metal_Debris": 6.98,
+   "AP_Plastic_Debris": 58.74,
+   "AP50_Plastic_Debris": 83.93,
+   "AP75_Plastic_Debris": 66.88,
+   "AP_Tire": 21.71,
+   "AP50_Tire": 49.5,
+   "AP75_Tire": 14.67
+  },
+  "exp06v11_synth100_real100": {
+   "AP": 34.8,
+   "AP50": 55.07,
+   "AP75": 37.8,
+   "APs": 2.18,
+   "APm": 24.1,
+   "APl": 42.46,
+   "AP_Bottle": 29.82,
+   "AP50_Bottle": 57.48,
+   "AP75_Bottle": 29.16,
+   "AP_Can": 11.36,
+   "AP50_Can": 16.83,
+   "AP75_Can": 13.96,
+   "AP_Fishing_Net": 24.67,
+   "AP50_Fishing_Net": 49.03,
+   "AP75_Fishing_Net": 23.27,
+   "AP_Glove": 67.22,
+   "AP50_Glove": 90.32,
+   "AP75_Glove": 80.23,
+   "AP_Mask": 56.91,
+   "AP50_Mask": 86.56,
+   "AP75_Mask": 65.09,
+   "AP_Metal_Debris": 4.25,
+   "AP50_Metal_Debris": 5.42,
+   "AP75_Metal_Debris": 4.85,
+   "AP_Plastic_Debris": 61.94,
+   "AP50_Plastic_Debris": 84.51,
+   "AP75_Plastic_Debris": 70.62,
+   "AP_Tire": 22.27,
+   "AP50_Tire": 50.41,
+   "AP75_Tire": 15.23
+  },
+  "exp06v11_synth100_real100_s2": {
+   "AP": 35.59,
+   "AP50": 55.62,
+   "AP75": 38.4,
+   "APs": 1.77,
+   "APm": 24.3,
+   "APl": 43.92,
+   "AP_Bottle": 30.84,
+   "AP50_Bottle": 57.06,
+   "AP75_Bottle": 29.39,
+   "AP_Can": 9.83,
+   "AP50_Can": 16.19,
+   "AP75_Can": 9.59,
+   "AP_Fishing_Net": 27.27,
+   "AP50_Fishing_Net": 52.95,
+   "AP75_Fishing_Net": 27.43,
+   "AP_Glove": 67.77,
+   "AP50_Glove": 90.03,
+   "AP75_Glove": 79.35,
+   "AP_Mask": 56.47,
+   "AP50_Mask": 84.73,
+   "AP75_Mask": 64.29,
+   "AP_Metal_Debris": 8.96,
+   "AP50_Metal_Debris": 12.19,
+   "AP75_Metal_Debris": 10.57,
+   "AP_Plastic_Debris": 62.45,
+   "AP50_Plastic_Debris": 83.58,
+   "AP75_Plastic_Debris": 70.79,
+   "AP_Tire": 21.13,
+   "AP50_Tire": 48.26,
+   "AP75_Tire": 15.78
+  },
+  "exp06v11_synth100_real100_s3": {
+   "AP": 35.47,
+   "AP50": 55.79,
+   "AP75": 38.52,
+   "APs": 2.78,
+   "APm": 24.4,
+   "APl": 42.93,
+   "AP_Bottle": 32.5,
+   "AP50_Bottle": 61.65,
+   "AP75_Bottle": 31.77,
+   "AP_Can": 9.45,
+   "AP50_Can": 16.36,
+   "AP75_Can": 10.24,
+   "AP_Fishing_Net": 28.0,
+   "AP50_Fishing_Net": 52.71,
+   "AP75_Fishing_Net": 28.07,
+   "AP_Glove": 67.51,
+   "AP50_Glove": 89.33,
+   "AP75_Glove": 80.12,
+   "AP_Mask": 57.26,
+   "AP50_Mask": 86.43,
+   "AP75_Mask": 63.47,
+   "AP_Metal_Debris": 7.7,
+   "AP50_Metal_Debris": 9.12,
+   "AP75_Metal_Debris": 8.93,
+   "AP_Plastic_Debris": 61.81,
+   "AP50_Plastic_Debris": 84.19,
+   "AP75_Plastic_Debris": 72.58,
+   "AP_Tire": 19.51,
+   "AP50_Tire": 46.52,
+   "AP75_Tire": 12.97
+  }
+ },
+ "arms": {
+  "exp07_real100": {
+   "runs": [
+    "exp07_real100",
+    "exp07_real100_s2",
+    "exp07_real100_s3"
+   ],
+   "AP": 33.3,
+   "ci": [
+    30.11,
+    37.81
+   ],
+   "sd_seeds": 0.24,
+   "AP50": 55.56,
+   "AP75": 34.98,
+   "nearest": "exp07_real100_s3"
+  },
+  "exp08_real_synth_minor": {
+   "runs": [
+    "exp08_real_synth_minor",
+    "exp08_real_synth_minor_s2",
+    "exp08_real_synth_minor_s3"
+   ],
+   "AP": 35.15,
+   "ci": [
+    31.56,
+    39.86
+   ],
+   "sd_seeds": 0.34,
+   "AP50": 58.24,
+   "AP75": 37.58,
+   "nearest": "exp08_real_synth_minor_s2"
+  },
+  "exp06v11_synth100_real100": {
+   "runs": [
+    "exp06v11_synth100_real100",
+    "exp06v11_synth100_real100_s2",
+    "exp06v11_synth100_real100_s3"
+   ],
+   "AP": 35.29,
+   "ci": [
+    31.38,
+    40.15
+   ],
+   "sd_seeds": 0.42,
+   "AP50": 55.49,
+   "AP75": 38.24,
+   "nearest": "exp06v11_synth100_real100_s3"
+  }
+ },
+ "pairs": [
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.85,
+   "ci": [
+    0.56,
+    3.07
+   ],
+   "p": 0.017
+  },
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP50",
+   "diff": 2.68,
+   "ci": [
+    0.86,
+    4.86
+   ],
+   "p": 0.014
+  },
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP75",
+   "diff": 2.61,
+   "ci": [
+    0.52,
+    4.5
+   ],
+   "p": 0.016
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.99,
+   "ci": [
+    0.4,
+    3.53
+   ],
+   "p": 0.019
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP50",
+   "diff": -0.07,
+   "ci": [
+    -2.41,
+    1.9
+   ],
+   "p": 0.694
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP75",
+   "diff": 3.26,
+   "ci": [
+    0.89,
+    5.14
+   ],
+   "p": 0.007
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP",
+   "diff": -0.14,
+   "ci": [
+    -1.11,
+    0.82
+   ],
+   "p": 0.88
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP50",
+   "diff": 2.75,
+   "ci": [
+    1.41,
+    4.74
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP75",
+   "diff": -0.66,
+   "ci": [
+    -2.0,
+    0.89
+   ],
+   "p": 0.382
+  }
+ ],
+ "seed21": [
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 2.04,
+   "ci": [
+    0.69,
+    3.75
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.29,
+   "ci": [
+    -0.38,
+    2.83
+   ],
+   "p": 0.133
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP",
+   "diff": 0.74,
+   "ci": [
+    -0.41,
+    2.51
+   ],
+   "p": 0.198
+  }
+ ],
+ "seed22": [
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.93,
+   "ci": [
+    0.45,
+    4.1
+   ],
+   "p": 0.009
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 2.54,
+   "ci": [
+    0.77,
+    5.33
+   ],
+   "p": 0.005
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP",
+   "diff": -0.61,
+   "ci": [
+    -2.88,
+    0.89
+   ],
+   "p": 0.466
+  }
+ ],
+ "seed23": [
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.59,
+   "ci": [
+    -1.24,
+    2.82
+   ],
+   "p": 0.169
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 2.12,
+   "ci": [
+    -0.83,
+    3.75
+   ],
+   "p": 0.12
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP",
+   "diff": -0.53,
+   "ci": [
+    -1.8,
+    0.74
+   ],
+   "p": 0.488
+  }
+ ],
+ "deployment": {
+  "arm": "exp06v11_synth100_real100",
+  "run": "exp06v11_synth100_real100_s3"
+ }
+}

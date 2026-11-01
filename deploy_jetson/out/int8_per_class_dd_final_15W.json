@@ -1,0 +1,334 @@
+{
+ "tag": "dd_final_15W",
+ "set": "diffusiondet_final",
+ "n_groups": 204,
+ "B": 2000,
+ "classes": [
+  "Bottle",
+  "Can",
+  "Fishing_Net",
+  "Glove",
+  "Mask",
+  "Metal_Debris",
+  "Plastic_Debris",
+  "Tire"
+ ],
+ "n_gt": [
+  946,
+  88,
+  614,
+  550,
+  673,
+  23,
+  851,
+  809
+ ],
+ "ap": {
+  "dd_torch": [
+   32.93,
+   8.79,
+   28.0,
+   68.3,
+   57.28,
+   7.19,
+   61.55,
+   19.67
+  ],
+  "dd_trt_fp32": [
+   32.69,
+   9.02,
+   27.83,
+   67.48,
+   56.91,
+   7.19,
+   61.16,
+   19.58
+  ],
+  "dd_trt_mixhead": [
+   32.97,
+   8.78,
+   28.16,
+   68.03,
+   57.16,
+   7.19,
+   61.67,
+   19.59
+  ],
+  "dd_trt_fp16": [
+   32.43,
+   8.84,
+   27.4,
+   65.49,
+   55.12,
+   7.34,
+   58.74,
+   20.52
+  ]
+ },
+ "pairs": {
+  "dd_trt_mixhead - dd_torch": [
+   {
+    "class": "Bottle",
+    "diff": 0.04,
+    "ci": [
+     -0.09,
+     0.16
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": -0.01,
+    "ci": [
+     -0.44,
+     0.13
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": 0.16,
+    "ci": [
+     0.02,
+     0.38
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": -0.27,
+    "ci": [
+     -0.89,
+     -0.14
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": -0.12,
+    "ci": [
+     -0.23,
+     0.2
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": -0.0,
+    "ci": [
+     -0.01,
+     0.01
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": 0.12,
+    "ci": [
+     -0.01,
+     0.26
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": -0.09,
+    "ci": [
+     -0.23,
+     0.01
+    ]
+   }
+  ],
+  "dd_trt_fp32 - dd_torch": [
+   {
+    "class": "Bottle",
+    "diff": -0.24,
+    "ci": [
+     -0.64,
+     0.28
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": 0.23,
+    "ci": [
+     -0.02,
+     0.7
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": -0.17,
+    "ci": [
+     -0.37,
+     0.1
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": -0.82,
+    "ci": [
+     -1.09,
+     0.35
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": -0.37,
+    "ci": [
+     -0.95,
+     -0.21
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": 0.0,
+    "ci": [
+     -0.01,
+     0.01
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": -0.4,
+    "ci": [
+     -0.74,
+     -0.02
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": -0.09,
+    "ci": [
+     -0.34,
+     0.31
+    ]
+   }
+  ],
+  "dd_trt_fp16 - dd_torch": [
+   {
+    "class": "Bottle",
+    "diff": -0.5,
+    "ci": [
+     -2.27,
+     1.14
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": 0.05,
+    "ci": [
+     -0.98,
+     1.08
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": -0.59,
+    "ci": [
+     -1.88,
+     0.62
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": -2.81,
+    "ci": [
+     -6.35,
+     -1.38
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": -2.16,
+    "ci": [
+     -2.71,
+     0.28
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": 0.15,
+    "ci": [
+     -0.01,
+     1.37
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": -2.82,
+    "ci": [
+     -5.48,
+     -0.45
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": 0.84,
+    "ci": [
+     -0.35,
+     1.75
+    ]
+   }
+  ],
+  "dd_trt_mixhead - dd_trt_fp32": [
+   {
+    "class": "Bottle",
+    "diff": 0.28,
+    "ci": [
+     -0.29,
+     0.72
+    ]
+   },
+   {
+    "class": "Can",
+    "diff": -0.25,
+    "ci": [
+     -1.02,
+     0.07
+    ]
+   },
+   {
+    "class": "Fishing_Net",
+    "diff": 0.33,
+    "ci": [
+     0.02,
+     0.62
+    ]
+   },
+   {
+    "class": "Glove",
+    "diff": 0.56,
+    "ci": [
+     -1.06,
+     0.85
+    ]
+   },
+   {
+    "class": "Mask",
+    "diff": 0.25,
+    "ci": [
+     0.11,
+     0.91
+    ]
+   },
+   {
+    "class": "Metal_Debris",
+    "diff": -0.0,
+    "ci": [
+     -0.01,
+     0.01
+    ]
+   },
+   {
+    "class": "Plastic_Debris",
+    "diff": 0.52,
+    "ci": [
+     0.14,
+     0.85
+    ]
+   },
+   {
+    "class": "Tire",
+    "diff": 0.0,
+    "ci": [
+     -0.45,
+     0.28
+    ]
+   }
+  ]
+ }
+}

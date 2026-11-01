@@ -1,0 +1,132 @@
+{
+ "counts": {
+  "train": {
+   "images": 10245,
+   "annotations": 21123,
+   "empty_images": 0,
+   "ann_per_class": {
+    "Bottle": 4333,
+    "Can": 412,
+    "Fishing_Net": 2812,
+    "Glove": 2582,
+    "Mask": 3164,
+    "Metal_Debris": 102,
+    "Plastic_Debris": 3957,
+    "Tire": 3761
+   },
+   "img_per_class": {
+    "Bottle": 2176,
+    "Can": 254,
+    "Fishing_Net": 2671,
+    "Glove": 997,
+    "Mask": 1100,
+    "Metal_Debris": 67,
+    "Plastic_Debris": 3256,
+    "Tire": 954
+   },
+   "img_per_source": {
+    "CleanSea": 767,
+    "Neural_Ocean": 3129,
+    "Ocean_garbage": 6349
+   },
+   "ann_per_source": {
+    "CleanSea": 1312,
+    "Neural_Ocean": 7516,
+    "Ocean_garbage": 12295
+   }
+  },
+  "val": {
+   "images": 2185,
+   "annotations": 4554,
+   "empty_images": 0,
+   "ann_per_class": {
+    "Bottle": 946,
+    "Can": 88,
+    "Fishing_Net": 614,
+    "Glove": 550,
+    "Mask": 673,
+    "Metal_Debris": 23,
+    "Plastic_Debris": 851,
+    "Tire": 809
+   },
+   "img_per_class": {
+    "Bottle": 459,
+    "Can": 55,
+    "Fishing_Net": 564,
+    "Glove": 213,
+    "Mask": 241,
+    "Metal_Debris": 13,
+    "Plastic_Debris": 700,
+    "Tire": 205
+   },
+   "img_per_source": {
+    "CleanSea": 164,
+    "Neural_Ocean": 671,
+    "Ocean_garbage": 1350
+   },
+   "ann_per_source": {
+    "CleanSea": 250,
+    "Neural_Ocean": 1606,
+    "Ocean_garbage": 2698
+   }
+  },
+  "test": {
+   "images": 2207,
+   "annotations": 4533,
+   "empty_images": 0,
+   "ann_per_class": {
+    "Bottle": 932,
+    "Can": 87,
+    "Fishing_Net": 606,
+    "Glove": 553,
+    "Mask": 672,
+    "Metal_Debris": 21,
+    "Plastic_Debris": 850,
+    "Tire": 812
+   },
+   "img_per_class": {
+    "Bottle": 461,
+    "Can": 54,
+    "Fishing_Net": 566,
+    "Glove": 211,
+    "Mask": 241,
+    "Metal_Debris": 15,
+    "Plastic_Debris": 692,
+    "Tire": 202
+   },
+   "img_per_source": {
+    "CleanSea": 164,
+    "Neural_Ocean": 672,
+    "Ocean_garbage": 1371
+   },
+   "ann_per_source": {
+    "CleanSea": 244,
+    "Neural_Ocean": 1644,
+    "Ocean_garbage": 2645
+   }
+  }
+ },
+ "groups": {
+  "images": 14637,
+  "content_edges": 80611,
+  "components_name": 6854,
+  "components_name_content": 2107,
+  "groups_final": 1416,
+  "largest_group": 686,
+  "cleansea_mode": "dive",
+  "cost": 1.6627,
+  "best_restart": 39,
+  "min_per_class": [
+   465.0,
+   44.0,
+   302.0,
+   276.0,
+   338.0,
+   10.0,
+   424.0,
+   403.0
+  ],
+  "seed": 21,
+  "restarts": 300
+ }
+}

@@ -1,0 +1,12 @@
+# DiffusionDet with Swin-Small: the common R-50 configuration with a different backbone. Official ImageNet-1k weights
+# converted with run/convert_swin_d2.py (detectron2 key matching). Launched with
+# run/launch_dd.py --cfg ... --tag swinsmall.
+_BASE_: "/app/densea-diffusiondet/configs/diffdet.densea.res50.yaml"
+MODEL:
+  WEIGHTS: "/app/densea-diffusiondet/models/swin_small_patch4_window7_224_d2.pkl"
+  BACKBONE:
+    NAME: "build_swintransformer_fpn_backbone"
+  SWIN:
+    SIZE: "S"
+  FPN:
+    IN_FEATURES: ["swin0", "swin1", "swin2", "swin3"]

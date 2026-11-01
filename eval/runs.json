@@ -1,0 +1,582 @@
+{
+ "runs": {
+  "RT_exp07_real100": {
+   "detector": "rtdetrv2",
+   "strategy": "exp07_real100"
+  },
+  "RT_exp06_synth100_real100": {
+   "detector": "rtdetrv2",
+   "strategy": "exp06_synth100_real100"
+  },
+  "RT_exp08_real_synth_minor": {
+   "detector": "rtdetrv2",
+   "strategy": "exp08_real_synth_minor"
+  },
+  "RT_exp09_real_synth_invprop": {
+   "detector": "rtdetrv2",
+   "strategy": "exp09_real_synth_invprop"
+  },
+  "RT_exp01_synth100": {
+   "detector": "rtdetrv2",
+   "strategy": "exp01_synth100"
+  },
+  "RT_exp02_synth100_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "exp02_synth100_real10"
+  },
+  "RT_exp03_synth100_real25": {
+   "detector": "rtdetrv2",
+   "strategy": "exp03_synth100_real25"
+  },
+  "RT_exp04_synth100_real50": {
+   "detector": "rtdetrv2",
+   "strategy": "exp04_synth100_real50"
+  },
+  "RT_exp05_synth100_real75": {
+   "detector": "rtdetrv2",
+   "strategy": "exp05_synth100_real75"
+  },
+  "RT_exp11_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "exp11_real10"
+  },
+  "RT_exp12_real25": {
+   "detector": "rtdetrv2",
+   "strategy": "exp12_real25"
+  },
+  "RT_exp13_real50": {
+   "detector": "rtdetrv2",
+   "strategy": "exp13_real50"
+  },
+  "RT_exp14_real75": {
+   "detector": "rtdetrv2",
+   "strategy": "exp14_real75"
+  },
+  "RT_exp15_real10_synth_invprop": {
+   "detector": "rtdetrv2",
+   "strategy": "exp15_real10_synth_invprop"
+  },
+  "RT_px_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "px_real10"
+  },
+  "RT_px_v9_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "px_v9_real10"
+  },
+  "RT_px_p_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "px_p_real10"
+  },
+  "RT_px_q_real10": {
+   "detector": "rtdetrv2",
+   "strategy": "px_q_real10"
+  },
+  "RT_px_v9_real10_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "px_v9_real10_s2"
+  },
+  "RT_px_p_real10_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "px_p_real10_s2"
+  },
+  "RT_exp06v11_synth100_real100": {
+   "detector": "rtdetrv2",
+   "strategy": "exp06v11_synth100_real100"
+  },
+  "RT_exp08v11_real_synth_minor": {
+   "detector": "rtdetrv2",
+   "strategy": "exp08v11_real_synth_minor"
+  },
+  "RT_exp09v11_real_synth_invprop": {
+   "detector": "rtdetrv2",
+   "strategy": "exp09v11_real_synth_invprop"
+  },
+  "RT_exp07_real100_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "exp07_real100_s2"
+  },
+  "RT_exp08_real_synth_minor_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "exp08_real_synth_minor_s2"
+  },
+  "RT_exp06v11_synth100_real100_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "exp06v11_synth100_real100_s2"
+  },
+  "RT_inc_real25": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_real25"
+  },
+  "RT_inc_v9_real25": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v9_real25"
+  },
+  "RT_inc_v11_real25": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v11_real25"
+  },
+  "RT_inc_real50": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_real50"
+  },
+  "RT_inc_v9_real50": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v9_real50"
+  },
+  "RT_inc_v11_real50": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v11_real50"
+  },
+  "RT_inc_real25_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_real25_s2"
+  },
+  "RT_inc_v9_real25_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v9_real25_s2"
+  },
+  "RT_inc_v11_real25_s2": {
+   "detector": "rtdetrv2",
+   "strategy": "inc_v11_real25_s2"
+  },
+  "RT_exp07_real100_s3": {
+   "detector": "rtdetrv2",
+   "strategy": "exp07_real100_s3"
+  },
+  "RT_exp08_real_synth_minor_s3": {
+   "detector": "rtdetrv2",
+   "strategy": "exp08_real_synth_minor_s3"
+  },
+  "RT_exp06v11_synth100_real100_s3": {
+   "detector": "rtdetrv2",
+   "strategy": "exp06v11_synth100_real100_s3"
+  },
+  "DD_exp07_real100": {
+   "detector": "diffusiondet",
+   "strategy": "exp07_real100"
+  },
+  "DD_exp06_synth100_real100": {
+   "detector": "diffusiondet",
+   "strategy": "exp06_synth100_real100"
+  },
+  "DD_exp08_real_synth_minor": {
+   "detector": "diffusiondet",
+   "strategy": "exp08_real_synth_minor"
+  },
+  "DD_exp09_real_synth_invprop": {
+   "detector": "diffusiondet",
+   "strategy": "exp09_real_synth_invprop"
+  },
+  "DD_exp01_synth100": {
+   "detector": "diffusiondet",
+   "strategy": "exp01_synth100"
+  },
+  "DD_exp02_synth100_real10": {
+   "detector": "diffusiondet",
+   "strategy": "exp02_synth100_real10"
+  },
+  "DD_exp03_synth100_real25": {
+   "detector": "diffusiondet",
+   "strategy": "exp03_synth100_real25"
+  },
+  "DD_exp04_synth100_real50": {
+   "detector": "diffusiondet",
+   "strategy": "exp04_synth100_real50"
+  },
+  "DD_exp05_synth100_real75": {
+   "detector": "diffusiondet",
+   "strategy": "exp05_synth100_real75"
+  },
+  "DD_exp11_real10": {
+   "detector": "diffusiondet",
+   "strategy": "exp11_real10"
+  },
+  "DD_exp12_real25": {
+   "detector": "diffusiondet",
+   "strategy": "exp12_real25"
+  },
+  "DD_exp13_real50": {
+   "detector": "diffusiondet",
+   "strategy": "exp13_real50"
+  },
+  "DD_exp14_real75": {
+   "detector": "diffusiondet",
+   "strategy": "exp14_real75"
+  },
+  "DD_exp15_real10_synth_invprop": {
+   "detector": "diffusiondet",
+   "strategy": "exp15_real10_synth_invprop"
+  },
+  "DD_px_real10": {
+   "detector": "diffusiondet",
+   "strategy": "px_real10"
+  },
+  "DD_px_v9_real10": {
+   "detector": "diffusiondet",
+   "strategy": "px_v9_real10"
+  },
+  "DD_px_p_real10": {
+   "detector": "diffusiondet",
+   "strategy": "px_p_real10"
+  },
+  "DD_px_q_real10": {
+   "detector": "diffusiondet",
+   "strategy": "px_q_real10"
+  },
+  "DD_px_v9_real10_s2": {
+   "detector": "diffusiondet",
+   "strategy": "px_v9_real10_s2"
+  },
+  "DD_px_p_real10_s2": {
+   "detector": "diffusiondet",
+   "strategy": "px_p_real10_s2"
+  },
+  "DD_exp06v11_synth100_real100": {
+   "detector": "diffusiondet",
+   "strategy": "exp06v11_synth100_real100"
+  },
+  "DD_exp08v11_real_synth_minor": {
+   "detector": "diffusiondet",
+   "strategy": "exp08v11_real_synth_minor"
+  },
+  "DD_exp09v11_real_synth_invprop": {
+   "detector": "diffusiondet",
+   "strategy": "exp09v11_real_synth_invprop"
+  },
+  "DD_exp07_real100_s2": {
+   "detector": "diffusiondet",
+   "strategy": "exp07_real100_s2"
+  },
+  "DD_exp08_real_synth_minor_s2": {
+   "detector": "diffusiondet",
+   "strategy": "exp08_real_synth_minor_s2"
+  },
+  "DD_exp06v11_synth100_real100_s2": {
+   "detector": "diffusiondet",
+   "strategy": "exp06v11_synth100_real100_s2"
+  },
+  "DD_inc_real25": {
+   "detector": "diffusiondet",
+   "strategy": "inc_real25"
+  },
+  "DD_inc_v9_real25": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v9_real25"
+  },
+  "DD_inc_v11_real25": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v11_real25"
+  },
+  "DD_inc_real50": {
+   "detector": "diffusiondet",
+   "strategy": "inc_real50"
+  },
+  "DD_inc_v9_real50": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v9_real50"
+  },
+  "DD_inc_v11_real50": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v11_real50"
+  },
+  "DD_inc_real25_s2": {
+   "detector": "diffusiondet",
+   "strategy": "inc_real25_s2"
+  },
+  "DD_inc_v9_real25_s2": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v9_real25_s2"
+  },
+  "DD_inc_v11_real25_s2": {
+   "detector": "diffusiondet",
+   "strategy": "inc_v11_real25_s2"
+  },
+  "DD_exp07_real100_s3": {
+   "detector": "diffusiondet",
+   "strategy": "exp07_real100_s3"
+  },
+  "DD_exp08_real_synth_minor_s3": {
+   "detector": "diffusiondet",
+   "strategy": "exp08_real_synth_minor_s3"
+  },
+  "DD_exp06v11_synth100_real100_s3": {
+   "detector": "diffusiondet",
+   "strategy": "exp06v11_synth100_real100_s3"
+  },
+  "RF_exp07_real100": {
+   "detector": "rfdetr",
+   "strategy": "exp07_real100"
+  },
+  "RF_exp06_synth100_real100": {
+   "detector": "rfdetr",
+   "strategy": "exp06_synth100_real100"
+  },
+  "RF_exp08_real_synth_minor": {
+   "detector": "rfdetr",
+   "strategy": "exp08_real_synth_minor"
+  },
+  "RF_exp09_real_synth_invprop": {
+   "detector": "rfdetr",
+   "strategy": "exp09_real_synth_invprop"
+  },
+  "RF_exp01_synth100": {
+   "detector": "rfdetr",
+   "strategy": "exp01_synth100"
+  },
+  "RF_exp02_synth100_real10": {
+   "detector": "rfdetr",
+   "strategy": "exp02_synth100_real10"
+  },
+  "RF_exp03_synth100_real25": {
+   "detector": "rfdetr",
+   "strategy": "exp03_synth100_real25"
+  },
+  "RF_exp04_synth100_real50": {
+   "detector": "rfdetr",
+   "strategy": "exp04_synth100_real50"
+  },
+  "RF_exp05_synth100_real75": {
+   "detector": "rfdetr",
+   "strategy": "exp05_synth100_real75"
+  },
+  "RF_exp11_real10": {
+   "detector": "rfdetr",
+   "strategy": "exp11_real10"
+  },
+  "RF_exp12_real25": {
+   "detector": "rfdetr",
+   "strategy": "exp12_real25"
+  },
+  "RF_exp13_real50": {
+   "detector": "rfdetr",
+   "strategy": "exp13_real50"
+  },
+  "RF_exp14_real75": {
+   "detector": "rfdetr",
+   "strategy": "exp14_real75"
+  },
+  "RF_exp15_real10_synth_invprop": {
+   "detector": "rfdetr",
+   "strategy": "exp15_real10_synth_invprop"
+  },
+  "RF_px_real10": {
+   "detector": "rfdetr",
+   "strategy": "px_real10"
+  },
+  "RF_px_v9_real10": {
+   "detector": "rfdetr",
+   "strategy": "px_v9_real10"
+  },
+  "RF_px_p_real10": {
+   "detector": "rfdetr",
+   "strategy": "px_p_real10"
+  },
+  "RF_px_q_real10": {
+   "detector": "rfdetr",
+   "strategy": "px_q_real10"
+  },
+  "RF_px_v9_real10_s2": {
+   "detector": "rfdetr",
+   "strategy": "px_v9_real10_s2"
+  },
+  "RF_px_p_real10_s2": {
+   "detector": "rfdetr",
+   "strategy": "px_p_real10_s2"
+  },
+  "RF_exp06v11_synth100_real100": {
+   "detector": "rfdetr",
+   "strategy": "exp06v11_synth100_real100"
+  },
+  "RF_exp08v11_real_synth_minor": {
+   "detector": "rfdetr",
+   "strategy": "exp08v11_real_synth_minor"
+  },
+  "RF_exp09v11_real_synth_invprop": {
+   "detector": "rfdetr",
+   "strategy": "exp09v11_real_synth_invprop"
+  },
+  "RF_exp07_real100_s2": {
+   "detector": "rfdetr",
+   "strategy": "exp07_real100_s2"
+  },
+  "RF_exp08_real_synth_minor_s2": {
+   "detector": "rfdetr",
+   "strategy": "exp08_real_synth_minor_s2"
+  },
+  "RF_exp06v11_synth100_real100_s2": {
+   "detector": "rfdetr",
+   "strategy": "exp06v11_synth100_real100_s2"
+  },
+  "RF_inc_real25": {
+   "detector": "rfdetr",
+   "strategy": "inc_real25"
+  },
+  "RF_inc_v9_real25": {
+   "detector": "rfdetr",
+   "strategy": "inc_v9_real25"
+  },
+  "RF_inc_v11_real25": {
+   "detector": "rfdetr",
+   "strategy": "inc_v11_real25"
+  },
+  "RF_inc_real50": {
+   "detector": "rfdetr",
+   "strategy": "inc_real50"
+  },
+  "RF_inc_v9_real50": {
+   "detector": "rfdetr",
+   "strategy": "inc_v9_real50"
+  },
+  "RF_inc_v11_real50": {
+   "detector": "rfdetr",
+   "strategy": "inc_v11_real50"
+  },
+  "RF_inc_real25_s2": {
+   "detector": "rfdetr",
+   "strategy": "inc_real25_s2"
+  },
+  "RF_inc_v9_real25_s2": {
+   "detector": "rfdetr",
+   "strategy": "inc_v9_real25_s2"
+  },
+  "RF_inc_v11_real25_s2": {
+   "detector": "rfdetr",
+   "strategy": "inc_v11_real25_s2"
+  },
+  "RF_exp07_real100_s3": {
+   "detector": "rfdetr",
+   "strategy": "exp07_real100_s3"
+  },
+  "RF_exp08_real_synth_minor_s3": {
+   "detector": "rfdetr",
+   "strategy": "exp08_real_synth_minor_s3"
+  },
+  "RF_exp06v11_synth100_real100_s3": {
+   "detector": "rfdetr",
+   "strategy": "exp06v11_synth100_real100_s3"
+  }
+ },
+ "pairs": [
+  [
+   "RT_exp06_synth100_real100",
+   "RT_exp07_real100"
+  ],
+  [
+   "RT_exp08_real_synth_minor",
+   "RT_exp07_real100"
+  ],
+  [
+   "RT_exp09_real_synth_invprop",
+   "RT_exp07_real100"
+  ],
+  [
+   "RT_exp06_synth100_real100",
+   "RT_exp08_real_synth_minor"
+  ],
+  [
+   "RT_exp06_synth100_real100",
+   "RT_exp09_real_synth_invprop"
+  ],
+  [
+   "RT_exp02_synth100_real10",
+   "RT_exp11_real10"
+  ],
+  [
+   "RT_exp03_synth100_real25",
+   "RT_exp12_real25"
+  ],
+  [
+   "RT_exp04_synth100_real50",
+   "RT_exp13_real50"
+  ],
+  [
+   "RT_exp05_synth100_real75",
+   "RT_exp14_real75"
+  ],
+  [
+   "RT_exp15_real10_synth_invprop",
+   "RT_exp11_real10"
+  ],
+  [
+   "DD_exp06_synth100_real100",
+   "DD_exp07_real100"
+  ],
+  [
+   "DD_exp08_real_synth_minor",
+   "DD_exp07_real100"
+  ],
+  [
+   "DD_exp09_real_synth_invprop",
+   "DD_exp07_real100"
+  ],
+  [
+   "DD_exp06_synth100_real100",
+   "DD_exp08_real_synth_minor"
+  ],
+  [
+   "DD_exp06_synth100_real100",
+   "DD_exp09_real_synth_invprop"
+  ],
+  [
+   "DD_exp02_synth100_real10",
+   "DD_exp11_real10"
+  ],
+  [
+   "DD_exp03_synth100_real25",
+   "DD_exp12_real25"
+  ],
+  [
+   "DD_exp04_synth100_real50",
+   "DD_exp13_real50"
+  ],
+  [
+   "DD_exp05_synth100_real75",
+   "DD_exp14_real75"
+  ],
+  [
+   "DD_exp15_real10_synth_invprop",
+   "DD_exp11_real10"
+  ],
+  [
+   "RF_exp06_synth100_real100",
+   "RF_exp07_real100"
+  ],
+  [
+   "RF_exp08_real_synth_minor",
+   "RF_exp07_real100"
+  ],
+  [
+   "RF_exp09_real_synth_invprop",
+   "RF_exp07_real100"
+  ],
+  [
+   "RF_exp06_synth100_real100",
+   "RF_exp08_real_synth_minor"
+  ],
+  [
+   "RF_exp06_synth100_real100",
+   "RF_exp09_real_synth_invprop"
+  ],
+  [
+   "RF_exp02_synth100_real10",
+   "RF_exp11_real10"
+  ],
+  [
+   "RF_exp03_synth100_real25",
+   "RF_exp12_real25"
+  ],
+  [
+   "RF_exp04_synth100_real50",
+   "RF_exp13_real50"
+  ],
+  [
+   "RF_exp05_synth100_real75",
+   "RF_exp14_real75"
+  ],
+  [
+   "RF_exp15_real10_synth_invprop",
+   "RF_exp11_real10"
+  ]
+ ]
+}

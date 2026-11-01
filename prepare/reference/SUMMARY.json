@@ -1,0 +1,325 @@
+{
+ "synth_images": 10771,
+ "synth_annotations": 40004,
+ "synth_dropped_empty": 0,
+ "experiments": {
+  "exp07_real100": {
+   "images": 10245,
+   "annotations": 21123,
+   "synthetic_images": 0,
+   "per_class": {
+    "Plastic_Debris": 3957,
+    "Bottle": 4333,
+    "Can": 412,
+    "Metal_Debris": 102,
+    "Fishing_Net": 2812,
+    "Glove": 2582,
+    "Tire": 3761,
+    "Mask": 3164
+   },
+   "selection": {}
+  },
+  "exp06_synth100_real100": {
+   "images": 21016,
+   "annotations": 61127,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 8165,
+    "Glove": 7582,
+    "Can": 5413,
+    "Plastic_Debris": 8957,
+    "Metal_Debris": 5102,
+    "Fishing_Net": 7813,
+    "Bottle": 9334,
+    "Tire": 8761
+   },
+   "selection": {}
+  },
+  "exp08_real_synth_minor": {
+   "images": 15632,
+   "annotations": 45971,
+   "synthetic_images": 5387,
+   "per_class": {
+    "Glove": 5496,
+    "Fishing_Net": 5669,
+    "Bottle": 7069,
+    "Metal_Debris": 4012,
+    "Plastic_Debris": 6909,
+    "Tire": 6602,
+    "Can": 4194,
+    "Mask": 6020
+   },
+   "selection": {
+    "Can": {
+     "real": 412,
+     "needed": 3088,
+     "added": 3088
+    },
+    "Metal_Debris": {
+     "real": 102,
+     "needed": 3398,
+     "added": 3398
+    }
+   }
+  },
+  "exp09_real_synth_invprop": {
+   "images": 20723,
+   "annotations": 60828,
+   "synthetic_images": 10478,
+   "per_class": {
+    "Mask": 8165,
+    "Glove": 7582,
+    "Can": 5413,
+    "Plastic_Debris": 8957,
+    "Metal_Debris": 5068,
+    "Fishing_Net": 7813,
+    "Bottle": 9069,
+    "Tire": 8761
+   },
+   "selection": {
+    "Metal_Debris": {
+     "real": 102,
+     "needed": 4398,
+     "added": 4398
+    },
+    "Can": {
+     "real": 412,
+     "needed": 4088,
+     "added": 2691
+    },
+    "Glove": {
+     "real": 2582,
+     "needed": 1918,
+     "added": 1249
+    },
+    "Fishing_Net": {
+     "real": 2812,
+     "needed": 1688,
+     "added": 823
+    },
+    "Mask": {
+     "real": 3164,
+     "needed": 1336,
+     "added": 538
+    },
+    "Tire": {
+     "real": 3761,
+     "needed": 739,
+     "added": 364
+    },
+    "Plastic_Debris": {
+     "real": 3957,
+     "needed": 543,
+     "added": 248
+    },
+    "Bottle": {
+     "real": 4333,
+     "needed": 167,
+     "added": 167
+    }
+   }
+  },
+  "exp01_synth100": {
+   "images": 10771,
+   "annotations": 40004,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 5001,
+    "Glove": 5000,
+    "Can": 5001,
+    "Plastic_Debris": 5000,
+    "Metal_Debris": 5000,
+    "Fishing_Net": 5001,
+    "Bottle": 5001,
+    "Tire": 5000
+   },
+   "selection": {}
+  },
+  "exp02_synth100_real10": {
+   "images": 11795,
+   "annotations": 42503,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 5564,
+    "Glove": 5433,
+    "Can": 5078,
+    "Plastic_Debris": 5398,
+    "Metal_Debris": 5006,
+    "Fishing_Net": 5252,
+    "Bottle": 5400,
+    "Tire": 5372
+   },
+   "selection": {}
+  },
+  "exp03_synth100_real25": {
+   "images": 13332,
+   "annotations": 46075,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 6255,
+    "Glove": 6124,
+    "Can": 5141,
+    "Plastic_Debris": 5980,
+    "Metal_Debris": 5028,
+    "Fishing_Net": 5625,
+    "Bottle": 5998,
+    "Tire": 5924
+   },
+   "selection": {}
+  },
+  "exp04_synth100_real50": {
+   "images": 15893,
+   "annotations": 51951,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 7591,
+    "Glove": 7091,
+    "Can": 5273,
+    "Plastic_Debris": 6910,
+    "Metal_Debris": 5056,
+    "Fishing_Net": 6246,
+    "Bottle": 7072,
+    "Tire": 6712
+   },
+   "selection": {}
+  },
+  "exp05_synth100_real75": {
+   "images": 18454,
+   "annotations": 56672,
+   "synthetic_images": 10771,
+   "per_class": {
+    "Mask": 7956,
+    "Glove": 7399,
+    "Can": 5384,
+    "Plastic_Debris": 7868,
+    "Metal_Debris": 5092,
+    "Fishing_Net": 6998,
+    "Bottle": 8352,
+    "Tire": 7623
+   },
+   "selection": {}
+  },
+  "exp11_real10": {
+   "images": 1024,
+   "annotations": 2499,
+   "synthetic_images": 0,
+   "per_class": {
+    "Plastic_Debris": 398,
+    "Can": 77,
+    "Bottle": 399,
+    "Fishing_Net": 251,
+    "Glove": 433,
+    "Metal_Debris": 6,
+    "Mask": 563,
+    "Tire": 372
+   },
+   "selection": {}
+  },
+  "exp12_real25": {
+   "images": 2561,
+   "annotations": 6071,
+   "synthetic_images": 0,
+   "per_class": {
+    "Can": 140,
+    "Metal_Debris": 28,
+    "Fishing_Net": 624,
+    "Plastic_Debris": 980,
+    "Bottle": 997,
+    "Glove": 1124,
+    "Tire": 924,
+    "Mask": 1254
+   },
+   "selection": {}
+  },
+  "exp13_real50": {
+   "images": 5122,
+   "annotations": 11947,
+   "synthetic_images": 0,
+   "per_class": {
+    "Plastic_Debris": 1910,
+    "Bottle": 2071,
+    "Can": 272,
+    "Fishing_Net": 1245,
+    "Glove": 2091,
+    "Metal_Debris": 56,
+    "Tire": 1712,
+    "Mask": 2590
+   },
+   "selection": {}
+  },
+  "exp14_real75": {
+   "images": 7683,
+   "annotations": 16668,
+   "synthetic_images": 0,
+   "per_class": {
+    "Plastic_Debris": 2868,
+    "Bottle": 3351,
+    "Can": 383,
+    "Metal_Debris": 92,
+    "Fishing_Net": 1997,
+    "Glove": 2399,
+    "Tire": 2623,
+    "Mask": 2955
+   },
+   "selection": {}
+  },
+  "exp15_real10_synth_invprop": {
+   "images": 11769,
+   "annotations": 42477,
+   "synthetic_images": 10745,
+   "per_class": {
+    "Mask": 5564,
+    "Glove": 5433,
+    "Can": 5078,
+    "Plastic_Debris": 5398,
+    "Metal_Debris": 4980,
+    "Fishing_Net": 5252,
+    "Bottle": 5400,
+    "Tire": 5372
+   },
+   "selection": {
+    "Metal_Debris": {
+     "real": 6,
+     "needed": 4494,
+     "added": 4494
+    },
+    "Can": {
+     "real": 77,
+     "needed": 4423,
+     "added": 2642
+    },
+    "Fishing_Net": {
+     "real": 251,
+     "needed": 4249,
+     "added": 1296
+    },
+    "Tire": {
+     "real": 372,
+     "needed": 4128,
+     "added": 731
+    },
+    "Plastic_Debris": {
+     "real": 398,
+     "needed": 4102,
+     "added": 514
+    },
+    "Bottle": {
+     "real": 399,
+     "needed": 4101,
+     "added": 622
+    },
+    "Glove": {
+     "real": 433,
+     "needed": 4067,
+     "added": 242
+    },
+    "Mask": {
+     "real": 563,
+     "needed": 3937,
+     "added": 204
+    }
+   }
+  }
+ },
+ "lot": "v9"
+}

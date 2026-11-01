@@ -1,0 +1,257 @@
+{
+ "tag": "dd_15W",
+ "n_groups": 204,
+ "B": 2000,
+ "runs": {
+  "dd_torch": {
+   "AP": 33.76,
+   "AP50": 55.35,
+   "AP75": 35.57,
+   "APs": 2.1,
+   "APm": 23.65,
+   "APl": 40.39,
+   "AP_Bottle": 28.77,
+   "AP50_Bottle": 57.04,
+   "AP75_Bottle": 27.24,
+   "AP_Can": 10.22,
+   "AP50_Can": 20.24,
+   "AP75_Can": 8.31,
+   "AP_Fishing_Net": 25.0,
+   "AP50_Fishing_Net": 48.91,
+   "AP75_Fishing_Net": 20.81,
+   "AP_Glove": 65.62,
+   "AP50_Glove": 90.88,
+   "AP75_Glove": 79.01,
+   "AP_Mask": 56.42,
+   "AP50_Mask": 86.75,
+   "AP75_Mask": 65.06,
+   "AP_Metal_Debris": 5.28,
+   "AP50_Metal_Debris": 8.19,
+   "AP75_Metal_Debris": 6.82,
+   "AP_Plastic_Debris": 59.73,
+   "AP50_Plastic_Debris": 83.89,
+   "AP75_Plastic_Debris": 66.66,
+   "AP_Tire": 19.03,
+   "AP50_Tire": 46.92,
+   "AP75_Tire": 10.64
+  },
+  "dd_trt_fp32": {
+   "AP": 33.63,
+   "AP50": 55.21,
+   "AP75": 35.5,
+   "APs": 1.94,
+   "APm": 23.62,
+   "APl": 40.19,
+   "AP_Bottle": 28.85,
+   "AP50_Bottle": 56.93,
+   "AP75_Bottle": 27.67,
+   "AP_Can": 10.09,
+   "AP50_Can": 20.03,
+   "AP75_Can": 7.94,
+   "AP_Fishing_Net": 24.8,
+   "AP50_Fishing_Net": 48.3,
+   "AP75_Fishing_Net": 21.06,
+   "AP_Glove": 65.39,
+   "AP50_Glove": 90.74,
+   "AP75_Glove": 79.25,
+   "AP_Mask": 56.2,
+   "AP50_Mask": 86.85,
+   "AP75_Mask": 64.25,
+   "AP_Metal_Debris": 5.23,
+   "AP50_Metal_Debris": 8.16,
+   "AP75_Metal_Debris": 6.82,
+   "AP_Plastic_Debris": 59.52,
+   "AP50_Plastic_Debris": 83.9,
+   "AP75_Plastic_Debris": 66.45,
+   "AP_Tire": 18.96,
+   "AP50_Tire": 46.77,
+   "AP75_Tire": 10.54
+  },
+  "dd_trt_mixhead": {
+   "AP": 33.71,
+   "AP50": 55.14,
+   "AP75": 35.51,
+   "APs": 1.96,
+   "APm": 23.59,
+   "APl": 40.33,
+   "AP_Bottle": 28.98,
+   "AP50_Bottle": 56.81,
+   "AP75_Bottle": 27.73,
+   "AP_Can": 9.96,
+   "AP50_Can": 19.24,
+   "AP75_Can": 8.32,
+   "AP_Fishing_Net": 25.06,
+   "AP50_Fishing_Net": 49.03,
+   "AP75_Fishing_Net": 20.85,
+   "AP_Glove": 65.46,
+   "AP50_Glove": 90.58,
+   "AP75_Glove": 78.78,
+   "AP_Mask": 56.17,
+   "AP50_Mask": 86.61,
+   "AP75_Mask": 64.29,
+   "AP_Metal_Debris": 5.26,
+   "AP50_Metal_Debris": 8.18,
+   "AP75_Metal_Debris": 6.83,
+   "AP_Plastic_Debris": 59.71,
+   "AP50_Plastic_Debris": 83.86,
+   "AP75_Plastic_Debris": 66.62,
+   "AP_Tire": 19.05,
+   "AP50_Tire": 46.81,
+   "AP75_Tire": 10.69
+  },
+  "dd_trt_fp16": {
+   "AP": 29.86,
+   "AP50": 51.54,
+   "AP75": 31.43,
+   "APs": 2.18,
+   "APm": 19.72,
+   "APl": 35.32,
+   "AP_Bottle": 24.87,
+   "AP50_Bottle": 51.19,
+   "AP75_Bottle": 20.92,
+   "AP_Can": 8.76,
+   "AP50_Can": 18.44,
+   "AP75_Can": 4.94,
+   "AP_Fishing_Net": 20.35,
+   "AP50_Fishing_Net": 41.78,
+   "AP75_Fishing_Net": 16.96,
+   "AP_Glove": 60.64,
+   "AP50_Glove": 89.92,
+   "AP75_Glove": 74.99,
+   "AP_Mask": 51.76,
+   "AP50_Mask": 83.8,
+   "AP75_Mask": 59.24,
+   "AP_Metal_Debris": 3.6,
+   "AP50_Metal_Debris": 6.27,
+   "AP75_Metal_Debris": 5.76,
+   "AP_Plastic_Debris": 50.93,
+   "AP50_Plastic_Debris": 77.63,
+   "AP75_Plastic_Debris": 57.67,
+   "AP_Tire": 17.99,
+   "AP50_Tire": 43.27,
+   "AP75_Tire": 10.94
+  }
+ },
+ "pairs": [
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 PyTorch FP32",
+   "metric": "AP",
+   "diff": -0.05,
+   "ci": [
+    -0.15,
+    0.01
+   ],
+   "p": 0.097
+  },
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 PyTorch FP32",
+   "metric": "AP50",
+   "diff": -0.21,
+   "ci": [
+    -0.43,
+    0.01
+   ],
+   "p": 0.059
+  },
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 PyTorch FP32",
+   "metric": "AP75",
+   "diff": -0.05,
+   "ci": [
+    -0.17,
+    0.1
+   ],
+   "p": 0.516
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32",
+   "metric": "AP",
+   "diff": -0.13,
+   "ci": [
+    -0.21,
+    -0.04
+   ],
+   "p": 0.006
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32",
+   "metric": "AP50",
+   "diff": -0.14,
+   "ci": [
+    -0.25,
+    0.05
+   ],
+   "p": 0.179
+  },
+  {
+   "pair": "TensorRT FP32 \u2212 PyTorch FP32",
+   "metric": "AP75",
+   "diff": -0.07,
+   "ci": [
+    -0.43,
+    0.13
+   ],
+   "p": 0.622
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32",
+   "metric": "AP",
+   "diff": -3.9,
+   "ci": [
+    -5.64,
+    -3.06
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32",
+   "metric": "AP50",
+   "diff": -3.82,
+   "ci": [
+    -6.12,
+    -2.55
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 PyTorch FP32",
+   "metric": "AP75",
+   "diff": -4.14,
+   "ci": [
+    -6.94,
+    -2.53
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 TensorRT FP32",
+   "metric": "AP",
+   "diff": 0.08,
+   "ci": [
+    -0.05,
+    0.15
+   ],
+   "p": 0.28
+  },
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 TensorRT FP32",
+   "metric": "AP50",
+   "diff": -0.07,
+   "ci": [
+    -0.38,
+    0.16
+   ],
+   "p": 0.557
+  },
+  {
+   "pair": "TensorRT mixto (cabezas FP32) \u2212 TensorRT FP32",
+   "metric": "AP75",
+   "diff": 0.02,
+   "ci": [
+    -0.21,
+    0.45
+   ],
+   "p": 0.977
+  }
+ ]
+}

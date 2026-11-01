@@ -1,0 +1,32 @@
+# DiffusionDet R50 configuration used for inference on the Jetson (eval_dd_val.py, dump_inputs.py): the model and test
+# sections of the training configuration configs/diffusiondet/densea_res50.yaml. It is placed in WORK_DIR/dd/ next to
+# code/, the DiffusionDet detectron2 project that holds configs/Base-DiffusionDet.yaml.
+_BASE_: "code/configs/Base-DiffusionDet.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/torchvision/R-50.pkl"
+  BACKBONE:
+    NAME: "build_resnet_fpn_backbone"
+    FREEZE_AT: 2
+  RESNETS:
+    DEPTH: 50
+    STRIDE_IN_1X1: False
+  ROI_HEADS:
+    NUM_CLASSES: 8
+  DiffusionDet:
+    NUM_PROPOSALS: 300
+    NUM_CLASSES: 8
+    ALPHA: 0.25
+    GAMMA: 2.0
+    SAMPLE_STEP: 1            # one sampling step: the exported wrapper is only valid with 1
+  MASK_ON: False
+MODEL_EMA:
+  ENABLED: True
+  DECAY: 0.9998
+  DEVICE: "cuda"
+INPUT:
+  FORMAT: "RGB"
+  MIN_SIZE_TEST: 800
+  MAX_SIZE_TEST: 960
+TEST:
+  DETECTIONS_PER_IMAGE: 100
+SEED: 21

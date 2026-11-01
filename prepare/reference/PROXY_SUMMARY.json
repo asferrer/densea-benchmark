@@ -1,0 +1,153 @@
+{
+ "real10_images": 1024,
+ "v9_pasted_target": 3338,
+ "experiments": {
+  "px_real10": {
+   "images": 1024,
+   "annotations": 2499,
+   "synthetic_images": 0,
+   "pasted_annotations": 0,
+   "per_class": {
+    "Plastic_Debris": 398,
+    "Can": 77,
+    "Bottle": 399,
+    "Fishing_Net": 251,
+    "Glove": 433,
+    "Metal_Debris": 6,
+    "Mask": 563,
+    "Tire": 372
+   },
+   "per_class_pasted": {}
+  },
+  "px_v9_real10": {
+   "images": 1946,
+   "annotations": 5837,
+   "synthetic_images": 922,
+   "pasted_annotations": 3338,
+   "per_class": {
+    "Glove": 847,
+    "Plastic_Debris": 847,
+    "Bottle": 840,
+    "Fishing_Net": 652,
+    "Tire": 779,
+    "Can": 478,
+    "Mask": 976,
+    "Metal_Debris": 418
+   },
+   "per_class_pasted": {
+    "Glove": 414,
+    "Plastic_Debris": 449,
+    "Bottle": 441,
+    "Fishing_Net": 401,
+    "Tire": 407,
+    "Can": 401,
+    "Mask": 413,
+    "Metal_Debris": 412
+   }
+  },
+  "px_p_real10": {
+   "images": 3024,
+   "annotations": 10891,
+   "synthetic_images": 2000,
+   "pasted_annotations": 3329,
+   "per_class": {
+    "Tire": 1676,
+    "Metal_Debris": 459,
+    "Fishing_Net": 951,
+    "Glove": 1736,
+    "Plastic_Debris": 1632,
+    "Can": 657,
+    "Mask": 2112,
+    "Bottle": 1668
+   },
+   "per_class_pasted": {
+    "Metal_Debris": 443,
+    "Glove": 427,
+    "Fishing_Net": 259,
+    "Plastic_Debris": 457,
+    "Can": 443,
+    "Tire": 472,
+    "Mask": 381,
+    "Bottle": 447
+   }
+  },
+  "px_q_real10": {
+   "images": 3024,
+   "annotations": 10984,
+   "synthetic_images": 2000,
+   "pasted_annotations": 3348,
+   "per_class": {
+    "Tire": 1713,
+    "Metal_Debris": 475,
+    "Fishing_Net": 891,
+    "Glove": 1750,
+    "Plastic_Debris": 1639,
+    "Can": 679,
+    "Mask": 2141,
+    "Bottle": 1696
+   },
+   "per_class_pasted": {
+    "Metal_Debris": 455,
+    "Glove": 425,
+    "Fishing_Net": 209,
+    "Plastic_Debris": 451,
+    "Can": 456,
+    "Mask": 393,
+    "Tire": 490,
+    "Bottle": 469
+   }
+  },
+  "px_v9_real10_s2": {
+   "images": 1946,
+   "annotations": 5837,
+   "synthetic_images": 922,
+   "pasted_annotations": 3338,
+   "per_class": {
+    "Glove": 847,
+    "Plastic_Debris": 847,
+    "Bottle": 840,
+    "Fishing_Net": 652,
+    "Tire": 779,
+    "Can": 478,
+    "Mask": 976,
+    "Metal_Debris": 418
+   },
+   "per_class_pasted": {
+    "Glove": 414,
+    "Plastic_Debris": 449,
+    "Bottle": 441,
+    "Fishing_Net": 401,
+    "Tire": 407,
+    "Can": 401,
+    "Mask": 413,
+    "Metal_Debris": 412
+   }
+  },
+  "px_p_real10_s2": {
+   "images": 3024,
+   "annotations": 10891,
+   "synthetic_images": 2000,
+   "pasted_annotations": 3329,
+   "per_class": {
+    "Tire": 1676,
+    "Metal_Debris": 459,
+    "Fishing_Net": 951,
+    "Glove": 1736,
+    "Plastic_Debris": 1632,
+    "Can": 657,
+    "Mask": 2112,
+    "Bottle": 1668
+   },
+   "per_class_pasted": {
+    "Metal_Debris": 443,
+    "Glove": 427,
+    "Fishing_Net": 259,
+    "Plastic_Debris": 457,
+    "Can": 443,
+    "Tire": 472,
+    "Mask": 381,
+    "Bottle": 447
+   }
+  }
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "tag": "15W",
+ "n_groups": 204,
+ "B": 2000,
+ "runs": {
+  "onnx_fp32": {
+   "AP": 43.01,
+   "AP50": 61.84,
+   "AP75": 46.1,
+   "APs": 3.78,
+   "APm": 29.86,
+   "APl": 50.87,
+   "AP_Bottle": 44.77,
+   "AP50_Bottle": 70.79,
+   "AP75_Bottle": 48.59,
+   "AP_Can": 19.9,
+   "AP50_Can": 34.19,
+   "AP75_Can": 20.46,
+   "AP_Fishing_Net": 36.29,
+   "AP50_Fishing_Net": 59.52,
+   "AP75_Fishing_Net": 34.28,
+   "AP_Glove": 76.75,
+   "AP50_Glove": 93.39,
+   "AP75_Glove": 87.42,
+   "AP_Mask": 67.11,
+   "AP50_Mask": 90.86,
+   "AP75_Mask": 74.27,
+   "AP_Metal_Debris": 5.67,
+   "AP50_Metal_Debris": 7.83,
+   "AP75_Metal_Debris": 6.38,
+   "AP_Plastic_Debris": 69.66,
+   "AP50_Plastic_Debris": 88.41,
+   "AP75_Plastic_Debris": 76.92,
+   "AP_Tire": 23.91,
+   "AP50_Tire": 49.76,
+   "AP75_Tire": 20.45
+  },
+  "trt_fp16": {
+   "AP": 42.94,
+   "AP50": 61.81,
+   "AP75": 46.02,
+   "APs": 3.83,
+   "APm": 29.91,
+   "APl": 50.75,
+   "AP_Bottle": 44.61,
+   "AP50_Bottle": 70.81,
+   "AP75_Bottle": 48.42,
+   "AP_Can": 19.82,
+   "AP50_Can": 33.91,
+   "AP75_Can": 20.26,
+   "AP_Fishing_Net": 36.21,
+   "AP50_Fishing_Net": 59.59,
+   "AP75_Fishing_Net": 34.15,
+   "AP_Glove": 76.73,
+   "AP50_Glove": 93.45,
+   "AP75_Glove": 87.44,
+   "AP_Mask": 67.13,
+   "AP50_Mask": 90.87,
+   "AP75_Mask": 74.28,
+   "AP_Metal_Debris": 5.57,
+   "AP50_Metal_Debris": 7.72,
+   "AP75_Metal_Debris": 6.31,
+   "AP_Plastic_Debris": 69.54,
+   "AP50_Plastic_Debris": 88.43,
+   "AP75_Plastic_Debris": 76.93,
+   "AP_Tire": 23.93,
+   "AP50_Tire": 49.7,
+   "AP75_Tire": 20.39
+  },
+  "trt_int8mix_stem": {
+   "AP": 42.53,
+   "AP50": 61.44,
+   "AP75": 45.27,
+   "APs": 3.91,
+   "APm": 29.47,
+   "APl": 50.31,
+   "AP_Bottle": 43.53,
+   "AP50_Bottle": 69.46,
+   "AP75_Bottle": 46.04,
+   "AP_Can": 19.52,
+   "AP50_Can": 33.5,
+   "AP75_Can": 19.34,
+   "AP_Fishing_Net": 36.06,
+   "AP50_Fishing_Net": 59.31,
+   "AP75_Fishing_Net": 34.27,
+   "AP_Glove": 76.29,
+   "AP50_Glove": 93.07,
+   "AP75_Glove": 86.57,
+   "AP_Mask": 66.62,
+   "AP50_Mask": 91.0,
+   "AP75_Mask": 73.64,
+   "AP_Metal_Debris": 5.07,
+   "AP50_Metal_Debris": 6.87,
+   "AP75_Metal_Debris": 5.9,
+   "AP_Plastic_Debris": 69.27,
+   "AP50_Plastic_Debris": 88.26,
+   "AP75_Plastic_Debris": 76.13,
+   "AP_Tire": 23.91,
+   "AP50_Tire": 50.05,
+   "AP75_Tire": 20.25
+  }
+ },
+ "pairs": [
+  {
+   "pair": "TensorRT INT8 mixto \u2212 TensorRT FP16",
+   "metric": "AP",
+   "diff": -0.41,
+   "ci": [
+    -1.08,
+    -0.13
+   ],
+   "p": 0.008
+  },
+  {
+   "pair": "TensorRT INT8 mixto \u2212 TensorRT FP16",
+   "metric": "AP50",
+   "diff": -0.37,
+   "ci": [
+    -1.12,
+    0.03
+   ],
+   "p": 0.068
+  },
+  {
+   "pair": "TensorRT INT8 mixto \u2212 TensorRT FP16",
+   "metric": "AP75",
+   "diff": -0.75,
+   "ci": [
+    -1.8,
+    -0.26
+   ],
+   "p": 0.004
+  },
+  {
+   "pair": "TensorRT INT8 mixto \u2212 ONNX FP32 (PC)",
+   "metric": "AP",
+   "diff": -0.48,
+   "ci": [
+    -1.35,
+    -0.21
+   ],
+   "p": 0.002
+  },
+  {
+   "pair": "TensorRT INT8 mixto \u2212 ONNX FP32 (PC)",
+   "metric": "AP50",
+   "diff": -0.4,
+   "ci": [
+    -1.4,
+    -0.03
+   ],
+   "p": 0.038
+  },
+  {
+   "pair": "TensorRT INT8 mixto \u2212 ONNX FP32 (PC)",
+   "metric": "AP75",
+   "diff": -0.83,
+   "ci": [
+    -2.04,
+    -0.32
+   ],
+   "p": 0.002
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 ONNX FP32 (PC)",
+   "metric": "AP",
+   "diff": -0.07,
+   "ci": [
+    -0.37,
+    0.03
+   ],
+   "p": 0.152
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 ONNX FP32 (PC)",
+   "metric": "AP50",
+   "diff": -0.04,
+   "ci": [
+    -0.38,
+    0.03
+   ],
+   "p": 0.196
+  },
+  {
+   "pair": "TensorRT FP16 \u2212 ONNX FP32 (PC)",
+   "metric": "AP75",
+   "diff": -0.08,
+   "ci": [
+    -0.43,
+    0.01
+   ],
+   "p": 0.074
+  }
+ ]
+}

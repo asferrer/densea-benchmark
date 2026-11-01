@@ -1,0 +1,196 @@
+{
+ "det": "diffusiondet",
+ "n_img": 2185,
+ "n_groups": 204,
+ "B": 2000,
+ "runs": {
+  "exp07_real100": {
+   "AP": 33.51,
+   "AP50": 54.87,
+   "AP75": 35.46,
+   "APs": 1.48,
+   "APm": 23.8,
+   "APl": 40.23,
+   "AP_Bottle": 29.16,
+   "AP50_Bottle": 58.05,
+   "AP75_Bottle": 27.67,
+   "AP_Can": 10.16,
+   "AP50_Can": 19.34,
+   "AP75_Can": 9.3,
+   "AP_Fishing_Net": 24.73,
+   "AP50_Fishing_Net": 47.88,
+   "AP75_Fishing_Net": 21.11,
+   "AP_Glove": 66.09,
+   "AP50_Glove": 91.42,
+   "AP75_Glove": 79.03,
+   "AP_Mask": 56.29,
+   "AP50_Mask": 86.76,
+   "AP75_Mask": 64.38,
+   "AP_Metal_Debris": 3.17,
+   "AP50_Metal_Debris": 5.12,
+   "AP75_Metal_Debris": 3.98,
+   "AP_Plastic_Debris": 59.63,
+   "AP50_Plastic_Debris": 83.7,
+   "AP75_Plastic_Debris": 67.39,
+   "AP_Tire": 18.84,
+   "AP50_Tire": 46.7,
+   "AP75_Tire": 10.8
+  },
+  "exp08_real_synth_minor": {
+   "AP": 35.55,
+   "AP50": 59.24,
+   "AP75": 37.59,
+   "APs": 1.4,
+   "APm": 24.75,
+   "APl": 42.61,
+   "AP_Bottle": 33.91,
+   "AP50_Bottle": 68.89,
+   "AP75_Bottle": 29.21,
+   "AP_Can": 14.01,
+   "AP50_Can": 25.59,
+   "AP75_Can": 14.94,
+   "AP_Fishing_Net": 28.83,
+   "AP50_Fishing_Net": 54.12,
+   "AP75_Fishing_Net": 29.84,
+   "AP_Glove": 65.3,
+   "AP50_Glove": 90.79,
+   "AP75_Glove": 77.51,
+   "AP_Mask": 54.47,
+   "AP50_Mask": 87.24,
+   "AP75_Mask": 59.94,
+   "AP_Metal_Debris": 8.12,
+   "AP50_Metal_Debris": 14.28,
+   "AP75_Metal_Debris": 11.08,
+   "AP_Plastic_Debris": 58.8,
+   "AP50_Plastic_Debris": 84.14,
+   "AP75_Plastic_Debris": 65.56,
+   "AP_Tire": 20.94,
+   "AP50_Tire": 48.85,
+   "AP75_Tire": 12.63
+  },
+  "exp06v11_synth100_real100": {
+   "AP": 34.8,
+   "AP50": 55.07,
+   "AP75": 37.8,
+   "APs": 2.18,
+   "APm": 24.1,
+   "APl": 42.46,
+   "AP_Bottle": 29.82,
+   "AP50_Bottle": 57.48,
+   "AP75_Bottle": 29.16,
+   "AP_Can": 11.36,
+   "AP50_Can": 16.83,
+   "AP75_Can": 13.96,
+   "AP_Fishing_Net": 24.67,
+   "AP50_Fishing_Net": 49.03,
+   "AP75_Fishing_Net": 23.27,
+   "AP_Glove": 67.22,
+   "AP50_Glove": 90.32,
+   "AP75_Glove": 80.23,
+   "AP_Mask": 56.91,
+   "AP50_Mask": 86.56,
+   "AP75_Mask": 65.09,
+   "AP_Metal_Debris": 4.25,
+   "AP50_Metal_Debris": 5.42,
+   "AP75_Metal_Debris": 4.85,
+   "AP_Plastic_Debris": 61.94,
+   "AP50_Plastic_Debris": 84.51,
+   "AP75_Plastic_Debris": 70.62,
+   "AP_Tire": 22.27,
+   "AP50_Tire": 50.41,
+   "AP75_Tire": 15.23
+  }
+ },
+ "pairs": [
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 2.04,
+   "ci": [
+    0.69,
+    3.75
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP50",
+   "diff": 4.37,
+   "ci": [
+    1.93,
+    7.62
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "MF clean-bg \u2212 Real-Only",
+   "metric": "AP75",
+   "diff": 2.13,
+   "ci": [
+    0.01,
+    4.62
+   ],
+   "p": 0.049
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP",
+   "diff": 1.29,
+   "ci": [
+    -0.38,
+    2.83
+   ],
+   "p": 0.133
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP50",
+   "diff": 0.2,
+   "ci": [
+    -2.66,
+    2.3
+   ],
+   "p": 0.908
+  },
+  {
+   "pair": "Std copy-paste \u2212 Real-Only",
+   "metric": "AP75",
+   "diff": 2.34,
+   "ci": [
+    -0.48,
+    4.26
+   ],
+   "p": 0.105
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP",
+   "diff": 0.74,
+   "ci": [
+    -0.41,
+    2.51
+   ],
+   "p": 0.198
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP50",
+   "diff": 4.17,
+   "ci": [
+    2.23,
+    7.43
+   ],
+   "p": 0.0
+  },
+  {
+   "pair": "MF clean-bg \u2212 Std copy-paste",
+   "metric": "AP75",
+   "diff": -0.21,
+   "ci": [
+    -1.86,
+    2.57
+   ],
+   "p": 1.0
+  }
+ ]
+}

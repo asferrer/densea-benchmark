@@ -1,0 +1,296 @@
+{
+ "real_ref": {
+  "control_image": {
+   "auc": 0.6556666666666667,
+   "auc_std": 0.007913238374002493,
+   "acc": 0.6227777777777778,
+   "n_synth": 300,
+   "n_real": 300,
+   "frechet": 105.97117232701532,
+   "auc_agr": 0.4767777777777778,
+   "auc_agr_std": 0.006850700603984423,
+   "acc_agr": 0.48722222222222217,
+   "n_groups": 342
+  },
+  "control_object": {
+   "auc": 0.6471851569987035,
+   "auc_std": 0.010295578174850556,
+   "acc": 0.6105112752171576,
+   "n_synth": 365,
+   "n_real": 401,
+   "frechet": 89.53215620733255,
+   "auc_agr": 0.3934806077005468,
+   "auc_agr_std": 0.015547578986663178,
+   "acc_agr": 0.41905327787680724,
+   "n_groups": 338
+  },
+  "object_diversity": {
+   "Bottle": {
+    "n": 70,
+    "vendi": 7.536290634602579,
+    "nn_dist": 0.20288705369465185
+   },
+   "Can": {
+    "n": 61,
+    "vendi": 7.128926063456064,
+    "nn_dist": 0.20919729683732086
+   },
+   "Fishing_Net": {
+    "n": 28,
+    "vendi": 5.255566974617323,
+    "nn_dist": 0.22913884721323274
+   },
+   "Glove": {
+    "n": 60,
+    "vendi": 5.757872051117963,
+    "nn_dist": 0.16122252012690869
+   },
+   "Metal_Debris": {
+    "n": 59,
+    "vendi": 7.23364269560615,
+    "nn_dist": 0.1713906521012361
+   },
+   "Plastic_Debris": {
+    "n": 54,
+    "vendi": 6.761012541908049,
+    "nn_dist": 0.2119341555642528
+   },
+   "Tire": {
+    "n": 69,
+    "vendi": 5.570490175210783,
+    "nn_dist": 0.14063443410346005
+   },
+   "mean": {
+    "vendi": 6.463400162359846,
+    "nn_dist": 0.18948642280586614
+   }
+  }
+ },
+ "external_seabed": {
+  "image": {
+   "auc": 1.0,
+   "auc_std": 0.0,
+   "acc": 0.9994444444444445,
+   "n_synth": 300,
+   "n_real": 300,
+   "frechet": 221.3946220461939,
+   "auc_agr": 1.0,
+   "auc_agr_std": 0.0,
+   "acc_agr": 0.9944444444444445,
+   "n_groups": 520
+  },
+  "object": {
+   "auc": 0.9998449074074074,
+   "auc_std": 2.567447072741596e-05,
+   "acc": 0.9916873706004141,
+   "n_synth": 401,
+   "n_real": 401,
+   "frechet": 193.36952317844498,
+   "auc_agr": 0.9997197788065844,
+   "auc_agr_std": 0.00011151241283290373,
+   "acc_agr": 0.9916873706004141,
+   "n_groups": 543
+  },
+  "groups": {
+   "criterion": "one group per synthetic image (no background identifier)",
+   "traceable": 0,
+   "n_images": 485,
+   "n_groups": 485
+  },
+  "object_diversity": {
+   "Bottle": {
+    "n": 70,
+    "vendi": 4.650680325417535,
+    "nn_dist": 0.15330603579272614
+   },
+   "Can": {
+    "n": 61,
+    "vendi": 4.177328017818508,
+    "nn_dist": 0.14405648280553865
+   },
+   "Fishing_Net": {
+    "n": 28,
+    "vendi": 3.649626580201234,
+    "nn_dist": 0.17346712043785903
+   },
+   "Glove": {
+    "n": 60,
+    "vendi": 4.751974178512329,
+    "nn_dist": 0.17636338959362402
+   },
+   "Metal_Debris": {
+    "n": 59,
+    "vendi": 5.3630395500966435,
+    "nn_dist": 0.185271956448958
+   },
+   "Plastic_Debris": {
+    "n": 54,
+    "vendi": 5.469850379532337,
+    "nn_dist": 0.2006964371737227
+   },
+   "Tire": {
+    "n": 69,
+    "vendi": 3.7586542113824506,
+    "nn_dist": 0.1232450068106433
+   },
+   "mean": {
+    "vendi": 4.54587903470872,
+    "nn_dist": 0.1652009184375817
+   }
+  }
+ },
+ "m_pos_7classes": {
+  "image": {
+   "auc": 0.6135555555555555,
+   "auc_std": 0.0028461944847932522,
+   "acc": 0.5661111111111111,
+   "n_synth": 300,
+   "n_real": 300,
+   "frechet": 92.60024410708547,
+   "auc_agr": 0.6333903829000784,
+   "auc_agr_std": 0.002398458380799649,
+   "acc_agr": 0.5837684990953723,
+   "n_groups": 361
+  },
+  "object": {
+   "auc": 0.8435333076131687,
+   "auc_std": 0.0027067326655046925,
+   "acc": 0.7659601449275363,
+   "n_synth": 401,
+   "n_real": 401,
+   "frechet": 95.23371066171177,
+   "auc_agr": 0.7994329812235651,
+   "auc_agr_std": 0.004224120481641509,
+   "acc_agr": 0.7202728670697885,
+   "n_groups": 350
+  },
+  "groups": {
+   "criterion": "partition group of the real background image",
+   "traceable": 300,
+   "n_images": 300,
+   "n_groups": 213
+  },
+  "object_diversity": {
+   "Bottle": {
+    "n": 70,
+    "vendi": 6.932648834231371,
+    "nn_dist": 0.21439257094698372
+   },
+   "Can": {
+    "n": 61,
+    "vendi": 6.91125531552769,
+    "nn_dist": 0.2066518979121835
+   },
+   "Fishing_Net": {
+    "n": 28,
+    "vendi": 4.313726280124388,
+    "nn_dist": 0.2087028712708154
+   },
+   "Glove": {
+    "n": 60,
+    "vendi": 6.316784009231038,
+    "nn_dist": 0.20159618953001537
+   },
+   "Metal_Debris": {
+    "n": 59,
+    "vendi": 6.908504883502096,
+    "nn_dist": 0.21265707854551377
+   },
+   "Plastic_Debris": {
+    "n": 54,
+    "vendi": 7.119451457164259,
+    "nn_dist": 0.23382177946924848
+   },
+   "Tire": {
+    "n": 69,
+    "vendi": 7.072622023827242,
+    "nn_dist": 0.20762729071266475
+   },
+   "mean": {
+    "vendi": 6.510713257658297,
+    "nn_dist": 0.21220709691248932
+   }
+  }
+ },
+ "_meta": {
+  "quotas": {
+   "Bottle": 70,
+   "Can": 61,
+   "Fishing_Net": 28,
+   "Glove": 60,
+   "Mask": 0,
+   "Metal_Debris": 59,
+   "Plastic_Debris": 54,
+   "Tire": 69
+  },
+  "available": {
+   "Bottle": 109,
+   "Can": 94,
+   "Fishing_Net": 73,
+   "Glove": 83,
+   "Mask": 0,
+   "Metal_Debris": 92,
+   "Plastic_Debris": 76,
+   "Tire": 83
+  },
+  "plan_v11": {
+   "Bottle": 70,
+   "Can": 61,
+   "Fishing_Net": 28,
+   "Glove": 60,
+   "Mask": 53,
+   "Metal_Debris": 59,
+   "Plastic_Debris": 54,
+   "Tire": 69
+  },
+  "margin": {
+   "n": 610,
+   "fill": {
+    "p10": 0.403,
+    "p50": 0.571,
+    "p90": 0.771
+   },
+   "dev_poly": {
+    "p10": 0.0,
+    "p50": 1.0,
+    "p90": 3.001
+   },
+   "box_vs_region": {
+    "p10": 0.585,
+    "p50": 0.696,
+    "p90": 0.811
+   },
+   "change_iou": {
+    "p10": 0.774,
+    "p50": 0.947,
+    "p90": 0.976
+   }
+  },
+  "measures": {
+   "_train_reference": {
+    "n": 21007,
+    "hf_ratio": 0.0315,
+    "lapvar64": 197.91942,
+    "noise_flat": 4.91349,
+    "border": 0.2914
+   },
+   "mapped": {
+    "pasted": {
+     "n": 610,
+     "hf_ratio": 0.01913,
+     "lapvar64": 14.07854,
+     "noise_flat": 1.6354,
+     "border": 0.0
+    },
+    "kept_real": {
+     "n": 0,
+     "hf_ratio": null,
+     "lapvar64": null,
+     "noise_flat": null,
+     "border": null
+    },
+    "scale": {}
+   }
+  }
+ }
+}

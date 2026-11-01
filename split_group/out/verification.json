@@ -1,0 +1,109 @@
+{
+ "images": {
+  "train": 10245,
+  "val": 2185,
+  "test": 2207
+ },
+ "name_keys": {
+  "train-val": {
+   "keys": 0,
+   "images": 0
+  },
+  "train-test": {
+   "keys": 0,
+   "images": 0
+  },
+  "val-test": {
+   "keys": 0,
+   "images": 0
+  }
+ },
+ "cleansea_dive_camera": {
+  "train-val": {
+   "keys": 0,
+   "images": 0
+  },
+  "train-test": {
+   "keys": 0,
+   "images": 0
+  },
+  "val-test": {
+   "keys": 0,
+   "images": 0
+  }
+ },
+ "cleansea_dive": {
+  "train-val": {
+   "keys": 0,
+   "images": 0
+  },
+  "train-test": {
+   "keys": 0,
+   "images": 0
+  },
+  "val-test": {
+   "keys": 0,
+   "images": 0
+  }
+ },
+ "group_ids": {
+  "train-val": {
+   "keys": 0,
+   "images": 0
+  },
+  "train-test": {
+   "keys": 0,
+   "images": 0
+  },
+  "val-test": {
+   "keys": 0,
+   "images": 0
+  }
+ },
+ "content": {
+  "partition criterion": {},
+  "looser 1: dhash<=28, cos>=0.92 (CleanSea), cos>=0.84 (Roboflow)": {
+   "train-test": {
+    "pairs": 541,
+    "images": 324
+   },
+   "train-val": {
+    "pairs": 888,
+    "images": 420
+   },
+   "val-test": {
+    "pairs": 140,
+    "images": 66
+   }
+  },
+  "looser 2: dhash<=32, cos>=0.90 (CleanSea), cos>=0.82 (Roboflow)": {
+   "train-test": {
+    "pairs": 2279,
+    "images": 868
+   },
+   "train-val": {
+    "pairs": 4678,
+    "images": 1280
+   },
+   "val-test": {
+    "pairs": 380,
+    "images": 192
+   }
+  }
+ },
+ "nearest_other_partition": {
+  "train": {
+   "max_cosine_other_partition": 0.948,
+   "min_dhash_other_partition_roboflow": 26
+  },
+  "val": {
+   "max_cosine_other_partition": 0.9246,
+   "min_dhash_other_partition_roboflow": 29
+  },
+  "test": {
+   "max_cosine_other_partition": 0.948,
+   "min_dhash_other_partition_roboflow": 40
+  }
+ },
+ "violations": 0
+}

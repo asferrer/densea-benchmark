@@ -1,0 +1,15 @@
+[project]
+name = "densea-benchmark"
+version = "1.0.0"
+description = "Benchmark kit for synthetic data in underwater debris detection: group partition, strategies, launchers, evaluation and Jetson deployment"
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.10"
+authors = [{ name = "Alejandro Sánchez Ferrer" }]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120

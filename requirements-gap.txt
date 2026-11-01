@@ -1,0 +1,6 @@
+# Gap metrics (analysis/synth_quality) and partition descriptors (split_group/features.py)
+-r requirements.txt
+torch==2.7.0
+torchvision==0.22.0
+transformers==5.5.0
+huggingface_hub==1.10.2

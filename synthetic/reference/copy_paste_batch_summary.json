@@ -1,0 +1,52 @@
+{
+ "images": 12000,
+ "annotations": 46452,
+ "pasted_total": 21238,
+ "real_total": 25214,
+ "pasted_per_class": {
+  "Metal_Debris": 4806,
+  "Fishing_Net": 1831,
+  "Plastic_Debris": 1587,
+  "Can": 5194,
+  "Tire": 1693,
+  "Glove": 2755,
+  "Bottle": 1726,
+  "Mask": 1646
+ },
+ "real_per_class": {
+  "Tire": 4522,
+  "Plastic_Debris": 4902,
+  "Bottle": 5149,
+  "Can": 573,
+  "Mask": 3956,
+  "Glove": 3142,
+  "Fishing_Net": 2853,
+  "Metal_Debris": 117
+ },
+ "target_per_class": {
+  "Bottle": 1500,
+  "Can": 4500,
+  "Fishing_Net": 2500,
+  "Glove": 2500,
+  "Mask": 1500,
+  "Metal_Debris": 4500,
+  "Plastic_Debris": 1500,
+  "Tire": 1500
+ },
+ "rejected_per_chunk": {
+  "chunk_1": 37,
+  "chunk_2": 31,
+  "chunk_3": 34,
+  "chunk_4": 33,
+  "chunk_5": 39,
+  "chunk_6": 28
+ },
+ "hours_per_chunk": {
+  "chunk_1": 3.27,
+  "chunk_2": 4.27,
+  "chunk_3": 2.79,
+  "chunk_4": 3.31,
+  "chunk_5": 2.28,
+  "chunk_6": 2.3
+ }
+}
