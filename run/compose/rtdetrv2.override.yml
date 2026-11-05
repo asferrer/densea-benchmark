@@ -1,4 +1,5 @@
-# Compose override: mounts this repository as /kit in the rtdetrv2 container.
+# Compose override: mounts this repository as /kit in the rtdetrv2 container and sets RUNS_DIR=/runs and DATA_ROOT=/data
+# for common/paths.py (the scripts of the kit that run inside the container read their locations from it).
 # The compose file of the detector repository already mounts DATA_ROOT as /data (read-only) and RUNS_DIR as /runs.
 # Apply it on top of that file, which stays unchanged:
 #   docker compose -f <repo>/docker-compose.yml -f run/compose/rtdetrv2.override.yml up -d
@@ -7,3 +8,6 @@ services:
   rtdetrv2:
     volumes:
       - ${KIT_DIR:?set KIT_DIR}:/kit:ro
+    environment:
+      - RUNS_DIR=/runs
+      - DATA_ROOT=/data

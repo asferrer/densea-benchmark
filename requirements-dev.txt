@@ -1,2 +1,4 @@
 -r requirements.txt
+-r requirements-gap.txt
+-r requirements-deploy.txt
 pytest==9.0.2

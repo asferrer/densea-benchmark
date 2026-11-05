@@ -51,7 +51,7 @@ python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt            # partition, preparation and bootstrap analyses
 pip install -r requirements-gap.txt        # optional: gap metrics and image descriptors (PyTorch, transformers)
 pip install -r requirements-deploy.txt     # optional: ONNX export and evaluation
-pip install -r requirements-dev.txt        # tests
+pip install -r requirements-dev.txt        # tests (also installs the two optional sets: some tests import torch and onnx)
 python -m pytest -q                        # CPU tests
 ```
 
