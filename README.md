@@ -58,7 +58,7 @@ python -m pytest -q                        # CPU tests
 Check out the three detector repositories next to each other and copy `run/env.example` to your shell:
 
 ```bash
-export DATA_ROOT=/path/to/densea-aggregated   # package of the Zenodo record, see below
+export DATA_ROOT=/path/to/densea-aggregated   # dataset package, see below
 export KIT_DIR=$PWD
 export RUNS_DIR=/path/to/runs                 # weights, logs, predictions
 export REPOS_DIR=/path/to/repos               # contains densea-rtdetrv2, densea-rfdetr, densea-diffusiondet
@@ -71,11 +71,11 @@ as `/runs`.
 
 ## Data
 
-**DenSea-Aggregated: A Group-Aware Benchmark for Underwater Debris Detection** (Zenodo, DOI at release) unifies Ocean
+**DenSea-Aggregated: A Group-Aware Benchmark for Underwater Debris Detection** ([dataset page of the University of Alicante group](https://www.dlsi.ua.es/~jgallego/datasets/)) unifies Ocean
 Garbage, Neural Ocean and CleanSea in eight classes (Bottle, Can, Fishing_Net, Glove, Mask, Metal_Debris,
 Plastic_Debris, Tire) and ships the group partition used here: 10,245 / 2,185 / 2,207 images
-(train / val / test), 21,123 / 4,554 / 4,533 boxes, 995 / 204 / 217 groups (1,416 in total). Download the record
-into `DATA_ROOT` and restore the CleanSea images with the script of the record (`tools/rebuild_images.py`), then check
+(train / val / test), 21,123 / 4,554 / 4,533 boxes, 995 / 204 / 217 groups (1,416 in total). Download the package
+into `DATA_ROOT` and restore the CleanSea images with the script of the package (`tools/rebuild_images.py`), then check
 it:
 
 ```bash
@@ -181,7 +181,7 @@ neither GPU, Docker nor data.
 
 ## Citation
 
-See `CITATION.cff`. If you use the dataset, cite the Zenodo record of DenSea-Aggregated as well.
+See `CITATION.cff`. If you use the dataset, cite DenSea-Aggregated as well.
 
 ## License
 
