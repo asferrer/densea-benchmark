@@ -10,6 +10,8 @@ This repository holds everything that is not specific to one detector: the group
 every strategy, the launchers, the common evaluation, the gap analysis and the deployment tools. It contains no
 images, annotations or weights.
 
+![Procedure to select the generator configuration](docs/images/selection-procedure.png)
+
 ## Related repositories
 
 | Repository | Role | License |
