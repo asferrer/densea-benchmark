@@ -16,7 +16,9 @@ rule.
 - **Final evaluation.** TEST, with `eval/evaluate_runs.py` (pycocotools, at most 100 detections per image) and the
   group bootstrap of `analysis/full_val/` (B = 2,000).
 - **Optimisation.** AdamW, learning rate 5e-5 for the heads and 5e-6 for the backbone, weight decay 0.05, cosine
-  schedule with warm-up, EMA 0.9998, gradient clipping 1.0, mixed precision, seed 21 (22 and 23 for the extra seeds).
+  schedule with warm-up, EMA 0.9998, gradient clipping 1.0 (RF-DETR: 0.1, the framework default, which the launcher
+  does not override; RF-DETR also applies `lr_component_decay` 0.7 and multi-scale training from 280 to 840 px), mixed
+  precision, seed 21 (22 and 23 for the extra seeds).
   Effective batch size 32 (RT-DETRv2, RF-DETR) and 8 (DiffusionDet).
 - **Initialisation and resolution.** Native to each detector: RT-DETRv2 PResNet-50vd ImageNet, 640 (multi-scale
   640-800); RF-DETR-B COCO, 560; DiffusionDet R-50 ImageNet, 800/960. They are reported, not equalised.

@@ -385,7 +385,7 @@ deformable attention and the rest of the transformer, Myelin kernels (`Transpose
 LayerNorm) that are memory bound and also excluded from INT8 for accuracy. Amdahl's law: half of the time is
 accelerated 1.7 times.
 
-**RF-DETR (no gain).** 92% of the time is the DINOv2 backbone (windowed ViT-S, 1,600 tokens): attention 34%, MLP 30%,
+**RF-DETR (no gain).** About 87% of the time is the DINOv2 backbone (windowed ViT-S, 1,600 tokens): attention 34%, MLP 30%,
 LayerNorm 16%. Myelin compiles it whole and attention is already fused (14 `_gemm_mha_v2` kernels).
 
 | Engine | GPU (`trtexec`) | Energy per image | Layers in INT8 | Size |
