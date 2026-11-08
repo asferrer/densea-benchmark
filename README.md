@@ -12,7 +12,51 @@ images, annotations or weights.
 
 ![Procedure to select the generator configuration](docs/images/selection-procedure.png)
 
+## Workflow
+
+```mermaid
+flowchart LR
+    DS["DenSea-Aggregated<br/>images + COCO annotations"] --> SP["split_group/<br/>group partition<br/>train / val / test"]
+    GEN["synthetic-dataset-generator<br/>(train split only)"] --> SB["synthetic batches<br/>clean-background, copy-paste"]
+    SP --> PR["prepare/<br/>training set per strategy<br/>Real-Only, Standard, MF, IP"]
+    SB --> PR
+    PR --> TR["run/run_phase.py<br/>training in the detector containers"]
+    TR --> PD["run/predict.py<br/>COCO detections on VAL"]
+    PD --> AN["analysis/ and eval/<br/>group bootstrap, paired differences"]
+    SB --> GAP["analysis/synth_quality/<br/>gap metrics"]
+    SP --> GAP
+    GAP --> AN
+    TR --> DEP["deploy_jetson/<br/>ONNX, TensorRT, latency, energy"]
+    AN -. "frozen configuration" .-> TEST["TEST, once<br/>ALLOW_TEST=1"]
+    TEST --> AN
+```
+
+Every arrow is a script of this repository (or of the generator); TEST is read only once, after everything is frozen.
+
 ## Related repositories
+
+```mermaid
+flowchart TB
+    subgraph data["Data"]
+        AT["annotation-tool<br/>labels the images"]
+        DENSEA["DenSea-Aggregated<br/>dataset package"]
+        GEN["synthetic-dataset-generator<br/>copy-paste and clean-background batches"]
+    end
+    BM["densea-benchmark (this repository)<br/>partition, strategies, launchers,<br/>evaluation, gap analysis, deployment"]
+    subgraph det["Detectors (one container each)"]
+        RT["densea-rtdetrv2"]
+        RF["densea-rfdetr"]
+        DD["densea-diffusiondet"]
+    end
+    JET["Jetson Orin Nano Super<br/>TensorRT engines"]
+    AT --> DENSEA
+    DENSEA --> BM
+    GEN -- "synthetic batches" --> BM
+    BM -- "training sets, configs<br/>(docker exec)" --> det
+    det -- "weights, COCO detections" --> BM
+    BM -- "ONNX, calibration, engines" --> JET
+```
+
 
 | Repository | Role | License |
 |---|---|---|
@@ -85,6 +129,17 @@ python tools/verify.py                       # inside the dataset package: check
 python split_group/verify_groups.py          # no group, name key or CleanSea dive crosses a partition
 ```
 
+How the partition is built (`split_group/`):
+
+```mermaid
+flowchart LR
+    POOL["Pool the three sources<br/>10,245 + 2,185 + 2,207 = 14,637 images"] --> EDGES["Link images of the same scene<br/>same name key<br/>dHash or ResNet-50 cosine similarity<br/>CleanSea: same dive"]
+    EDGES --> GR["Connected components<br/>= 1,416 groups"]
+    GR --> ST["Multi-label stratified assignment<br/>about 70 / 15 / 15<br/>boxes and images per class, per source"]
+    ST --> OUT["train 995 groups<br/>val 204 groups<br/>test 217 groups"]
+    OUT --> VER["verify_groups.py<br/>no group, name key or dive<br/>crosses a partition"]
+```
+
 The partition is part of the dataset. `split_group/make_split_group.py` rebuilds it from the descriptors of the
 images (`split_group/features.py`), see `split_group/out/REPORT.md` for the statistics; `split_group/out/split_ids.json`
 and `groups.json` are the released assignment.
@@ -94,6 +149,10 @@ and `groups.json` are the released assignment.
 copied under `DATA_ROOT/synthetic/`: a *clean-background* batch (objects pasted on debris-free underwater
 backgrounds, label `v9`) and a *copy-paste* batch (objects pasted on real training images, label `v11`). The commands,
 seeds and checks are in [`docs/synthetic_batches.md`](docs/synthetic_batches.md); the batches are not redistributed.
+
+![Copy-paste generation pipeline](docs/images/copypaste-pipeline.png)
+
+*Figure from the accompanying article: the seven stages of the copy-paste generator.*
 
 ## Strategies and experiment ids
 
@@ -175,6 +234,28 @@ excludes zero (+1.93 [+0.09; +3.58]); RT-DETRv2 Minority-Focus minus Standard is
 RT-DETRv2 Minority-Focus minus Standard is +1.28 [+0.21; +3.67]. Jetson results (VAL, 15 W): RT-DETRv2 INT8 mixed
 43.60 AP at 35.1 ms and 359 mJ per image; RF-DETR INT8 43.31 at 23.6 ms and 275 mJ; DiffusionDet mixed 35.44 at
 115.2 ms and 1,283 mJ (see `deploy_jetson/README.md`).
+
+The gap analysis relates the AP of each batch to its distance to the real objects under six frozen evaluators:
+
+![AP against object-level AUC](docs/images/ap-vs-gap.png)
+
+*Figure from the accompanying article: validation AP against the object-level grouped AUC (lower is closer to real) of each batch, one panel per evaluator.*
+
+Deployment on the Jetson (`deploy_jetson/`):
+
+```mermaid
+flowchart LR
+    CK["Best EMA checkpoint<br/>(detector container, PC)"] --> ONNX["ONNX export<br/>export_onnx_*.py"]
+    ONNX --> Q["INT8 calibration set<br/>and Q/DQ quantization<br/>(PC, optional)"]
+    ONNX --> ENG["TensorRT engines<br/>FP32, FP16, INT8 or mixed<br/>(trtexec, Jetson)"]
+    Q --> ENG
+    ENG --> ACC["VAL accuracy<br/>group bootstrap"]
+    ENG --> LAT["Latency, power and energy<br/>7 W, 15 W, MAXN_SUPER"]
+```
+
+![Jetson accuracy, latency and energy](docs/images/jetson-ap-latency-energy.png)
+
+*Figure from the accompanying article: (a) validation AP against GPU latency at 15 W; (b) energy per image in each power mode.*
 
 ## Tests
 
